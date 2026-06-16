@@ -48,6 +48,14 @@ It is taken from the cart contents subtotal, including the tax on those items, a
 
 Yes. Add as many fee rows as you need; each one is applied independently.
 
+= Where do fees appear? =
+
+On the checkout order totals table, labelled with the name you set for each fee row.
+
+= Do percentage fees include tax? =
+
+Percentage fees are calculated from the cart contents subtotal including line tax, before shipping and other fees.
+
 == Screenshots ==
 
 1. The Surcharge settings screen with a fee configured.
