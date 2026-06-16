@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-06-14T21:56:32+00:00\n"
+"POT-Creation-Date: 2026-06-16T20:24:17+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: surcharge\n"
@@ -101,31 +101,59 @@ msgstr ""
 msgid "e.g. Handling fee"
 msgstr ""
 
-#: src/Admin/Settings.php:196
+#: src/Admin/Settings.php:193
+msgid "The wording customers see on the cart, checkout and order. Leave blank to skip this row."
+msgstr ""
+
+#: src/Admin/Settings.php:197
 msgid "Type"
 msgstr ""
 
-#: src/Admin/Settings.php:198
+#: src/Admin/Settings.php:199
 msgid "Fixed amount"
 msgstr ""
 
-#: src/Admin/Settings.php:199
+#: src/Admin/Settings.php:200
 msgid "Percentage of cart"
 msgstr ""
 
-#: src/Admin/Settings.php:204
+#: src/Admin/Settings.php:202
+msgid "Fixed adds the same amount every order. Percentage scales with the cart subtotal."
+msgstr ""
+
+#: src/Admin/Settings.php:206
 msgid "Amount"
 msgstr ""
 
-#: src/Admin/Settings.php:211
+#: src/Admin/Settings.php:209
+msgid "Charged in your store currency, e.g. 3.50."
+msgstr ""
+
+#: src/Admin/Settings.php:210
+msgid "A percentage from 0 to 100, e.g. 2.5 adds 2.5% of the subtotal."
+msgstr ""
+
+#: src/Admin/Settings.php:223
+msgid "Receipt line"
+msgstr ""
+
+#: src/Admin/Settings.php:230
 msgid "Taxable"
 msgstr ""
 
-#: src/Admin/Settings.php:219
+#: src/Admin/Settings.php:232
+msgid "On: tax is calculated on this fee using your standard rate. Off: the fee is added tax-free."
+msgstr ""
+
+#: src/Admin/Settings.php:239
 msgid "Enabled"
 msgstr ""
 
-#: src/Admin/Settings.php:221
+#: src/Admin/Settings.php:240
+msgid "Off keeps the row saved but stops charging it."
+msgstr ""
+
+#: src/Admin/Settings.php:242
 msgid "Remove fee"
 msgstr ""
 
