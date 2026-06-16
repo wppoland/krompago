@@ -15,15 +15,18 @@ Add fixed or percentage fees to the WooCommerce cart and checkout.
 
 Surcharge lets you add one or more fees to the WooCommerce cart and checkout. Each fee is either a fixed amount or a percentage of the cart subtotal.
 
-Fees are added through the official WooCommerce fees API, so they show up in the cart totals, on the checkout page, and on the resulting order — exactly like shipping or tax.
+Fees are added through the WooCommerce fees API, so they appear in the cart totals, on the checkout page, and on the saved order, the same way shipping or tax does. The cart and checkout blocks and HPOS are both supported.
 
-= Features =
+The code lives at https://github.com/wppoland/surcharge if you want to read it, report a bug, or suggest a fee type.
 
-* Add unlimited fees, each a fixed amount or a percentage of the cart subtotal.
-* Mark a fee as taxable so WooCommerce applies your standard tax rules to it.
-* Master switch to pause every fee without deleting your configuration.
-* A clean, accessible settings screen under WooCommerce → Surcharge.
-* Self-contained: no external services, no account, no tracking.
+= What it does =
+
+* Add as many fees as you need, each a fixed amount or a percentage of the cart.
+* Flag a fee as taxable so WooCommerce runs it through your normal tax rules.
+* Turn every fee off at once with a master switch, without losing the rows you set up.
+* Enable or disable individual fees, so you can keep a fee configured but inactive.
+* Manage it all from one settings screen under WooCommerce → Surcharge.
+* No external services, no account, no tracking.
 
 == Installation ==
 
@@ -39,7 +42,7 @@ Yes. Surcharge extends the WooCommerce cart and checkout and does nothing withou
 
 = How is a percentage fee calculated? =
 
-It is a percentage of the cart contents subtotal (before existing fees and shipping).
+It is taken from the cart contents subtotal, including the tax on those items, and before any shipping or other fees are added. Percentages are capped at 100.
 
 = Can I add more than one fee? =
 
