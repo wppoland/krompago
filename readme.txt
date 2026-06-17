@@ -60,6 +60,12 @@ Percentage fees are calculated from the cart contents subtotal including line ta
 
 1. The Surcharge settings screen with a fee configured.
 
+== External Services ==
+
+Surcharge does not connect to any external service. It calls no remote APIs, loads no third-party scripts, fonts, or trackers, and sends nothing off your site. Its only stylesheet and script are served from the plugin folder and loaded just on the WooCommerce → Surcharge admin screen.
+
+All data stays in your own database: your fee rows and the master switch are kept in the `surcharge_settings` option, and a schema marker in `surcharge_db_version`. Both options are removed when you delete the plugin. The plugin creates no custom tables and sends no email; fees are applied at runtime through WooCommerce's own cart fees API.
+
 == Changelog ==
 
 = 0.1.0 =
