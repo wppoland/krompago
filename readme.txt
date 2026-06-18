@@ -1,5 +1,5 @@
 === Surcharge - Checkout Fees for WooCommerce ===
-Contributors: wppoland
+Contributors: motylanogha
 Tags: woocommerce, checkout, fees, surcharge, payment fee
 Requires at least: 6.5
 Tested up to: 7.0
