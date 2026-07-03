@@ -22,8 +22,15 @@ final class Settings implements HasHooks
 {
     private const PAGE = 'surcharge-settings';
 
+    private ?ProUpsell $proUpsell = null;
+
     public function __construct(private readonly FeeRepository $repository)
     {
+    }
+
+    private function proUpsell(): ProUpsell
+    {
+        return $this->proUpsell ??= new ProUpsell();
     }
 
     public function registerHooks(): void
@@ -31,6 +38,7 @@ final class Settings implements HasHooks
         add_action('admin_menu', [$this, 'addMenuPage']);
         add_action('admin_init', [$this, 'registerSettings']);
         add_action('admin_enqueue_scripts', [$this, 'enqueueAssets']);
+        $this->proUpsell()->registerHooks();
     }
 
     public function enqueueAssets(string $hook): void
@@ -104,6 +112,8 @@ final class Settings implements HasHooks
                 <?php endif; ?>
             </h1>
 
+            <?php $this->proUpsell()->banner(); ?>
+
             <div class="surcharge-admin__intro">
                 <span class="surcharge-admin__intro-icon" aria-hidden="true">&#43;</span>
                 <div>
@@ -112,6 +122,7 @@ final class Settings implements HasHooks
                 </div>
             </div>
 
+            <div class="surcharge-cols">
             <form method="post" action="options.php">
                 <?php settings_fields(self::PAGE); ?>
 
@@ -165,6 +176,11 @@ final class Settings implements HasHooks
 
                 <?php submit_button(); ?>
             </form>
+
+                <?php $this->proUpsell()->aside(); ?>
+            </div>
+
+            <?php $this->proUpsell()->cards(); ?>
         </div>
         <?php
     }
