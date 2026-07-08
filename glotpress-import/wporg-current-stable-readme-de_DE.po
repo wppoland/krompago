@@ -1,0 +1,73 @@
+# wp.org Stable Readme translation (de_DE)
+msgid ""
+msgstr ""
+"Project-Id-Version: surcharge Stable Readme\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: plogins-i18n\n"
+
+msgid "Requires Plugins: woocommerce"
+msgstr "Erfordert Plugins: woocommerce"
+
+msgid "Add fixed or percentage fees to the WooCommerce cart and checkout."
+msgstr "Füge dem WooCommerce-Warenkorb und der Kasse feste oder prozentuale Gebühren hinzu."
+
+msgid "Surcharge lets you add one or more fees to the WooCommerce cart and checkout. Each fee is either a fixed amount or a percentage of the cart subtotal."
+msgstr "Mit Surcharge kannst du eine oder mehrere Gebühren zum WooCommerce-Warenkorb und zur Kasse hinzufügen. Bei jeder Gebühr handelt es sich entweder um einen festen Betrag oder einen Prozentsatz der Zwischensumme des Warenkorbs."
+
+msgid "Fees are added through the WooCommerce fees API, so they appear in the cart totals, on the checkout page, and on the saved order, the same way shipping or tax does. The cart and checkout blocks and HPOS are both supported."
+msgstr "Gebühren werden über die WooCommerce-Gebühren-API hinzugefügt, sodass sie in den Warenkorbsummen, auf der Checkout-Seite und auf der gespeicherten Bestellung erscheinen, genau wie Versand oder Steuern. Die Warenkorb- und Kassenblöcke sowie HPOS werden beide unterstützt."
+
+msgid "The code lives at https://github.com/wppoland/plogins-surcharge if you want to read it, report a bug, or suggest a fee type."
+msgstr "Der Code befindet sich unter https://github.com/wppoland/plogins-surcharge, wenn du ihn lesen, einen Fehler melden oder einen Gebührentyp vorschlagen möchten."
+
+msgid "* <strong>Documentation</strong> - https://plogins.com/plogins-surcharge/docs/\n* <strong>Plugin page</strong> - https://plogins.com/plogins-surcharge/\n* <strong>Source code</strong> - https://github.com/wppoland/plogins-surcharge\n* <strong>Bug reports and feature requests</strong> - https://github.com/wppoland/plogins-surcharge/issues"
+msgstr "* <strong>Dokumentation</strong> - https://plogins.com/de/plogins-surcharge/docs/\n* <strong>Plugin-Seite</strong> - https://plogins.com/de/plogins-surcharge/\n* <strong>Quellcode</strong> – https://github.com/wppoland/plogins-surcharge\n* <strong>Fehlerberichte und Funktionsanfragen</strong> – https://github.com/wppoland/plogins-surcharge/issues"
+
+msgid "* Add as many fees as you need, each a fixed amount or a percentage of the cart.\n* Flag a fee as taxable so WooCommerce runs it through your normal tax rules.\n* Turn every fee off at once with a master switch, without losing the rows you set up.\n* Enable or disable individual fees, so you can keep a fee configured but inactive.\n* Manage it all from one settings screen under WooCommerce → Surcharge.\n* No external services, no account, no tracking."
+msgstr "* Füge so viele Gebühren hinzu, wie Sie benötigen, jeweils einen festen Betrag oder einen Prozentsatz des Warenkorbs.\n* Markiere eine Gebühr als steuerpflichtig, damit WooCommerce deine normalen Steuerregeln durchläuft.\n* Schalte mit einem Hauptschalter jede Gebühr auf einmal aus, ohne dass die von dir eingerichteten Reihen verloren gehen.\n* Aktivieren oder deaktiviere einzelne Gebühren, sodass du eine Gebühr konfiguriert, aber inaktiv lassen können.\n* Verwalte alles über einen Einstellungsbildschirm unter WooCommerce → Zuschlag.\n* Keine externen Dienste, kein Konto, kein Tracking."
+
+msgid "1. Upload the plugin to `/wp-content/plugins/plogins-surcharge`, or install via Plugins → Add New.\n2. Activate it. WooCommerce must be active.\n3. Go to WooCommerce → Surcharge and add your first fee."
+msgstr "1. Lade das Plugin unter „/wp-content/plugins/plogins-surcharge“ hoch oder installiere es über Plugins → Neu hinzufügen.\n2. Aktiviere es. WooCommerce muss aktiv sein.\n3. Gehe zu WooCommerce → Zuschlag und füge deine erste Gebühr hinzu."
+
+msgid "Yes. Surcharge extends the WooCommerce cart and checkout and does nothing without it."
+msgstr "Ja. Surcharge erweitert den WooCommerce-Warenkorb und den Checkout und macht nichts ohne."
+
+msgid "It is taken from the cart contents subtotal, including the tax on those items, and before any shipping or other fees are added. Percentages are capped at 100."
+msgstr "Der Betrag wird der Zwischensumme des Warenkorbinhalts entnommen, einschließlich der Steuer auf diese Artikel und vor Hinzurechnung etwaiger Versand- oder anderer Gebühren. Die Prozentsätze sind auf 100 begrenzt."
+
+msgid "Yes. Add as many fee rows as you need; each one is applied independently."
+msgstr "Ja. Füge so viele Gebührenzeilen hinzu, wie Sie benötigen. Jeder wird unabhängig angewendet."
+
+msgid "On the checkout order totals table, labelled with the name you set for each fee row."
+msgstr "In der Tabelle mit den Bestellsummen an der Kasse, beschriftet mit dem Namen, den du für jede Gebührenzeile festgelegt haben."
+
+msgid "Percentage fees are calculated from the cart contents subtotal including line tax, before shipping and other fees."
+msgstr "Die prozentualen Gebühren werden aus der Zwischensumme des Warenkorbinhalts einschließlich der Zeilensteuer vor Versand und anderen Gebühren berechnet."
+
+msgid "Yes. This plugin is compatible with WordPress Multisite. Network activate it or activate it on individual sites; each site keeps its own settings and data."
+msgstr "Ja. Dieses Plugin ist mit WordPress Multisite kompatibel. Aktiviere es im Netzwerk oder auf einzelnen Websites. Jede Site behält ihre eigenen Einstellungen und Daten."
+
+msgid "1. On the storefront.\n2. Settings in the WordPress admin.\n3. On a mobile device."
+msgstr "1. Im Schaufenster.\n2. Einstellungen im WordPress-Admin.\n3. Auf einem mobilen Gerät."
+
+msgid "Surcharge does not connect to any external service. It calls no remote APIs, loads no third-party scripts, fonts, or trackers, and sends nothing off your site. Its only stylesheet and script are served from the plugin folder and loaded just on the WooCommerce → Surcharge admin screen."
+msgstr "Der Aufpreis stellt keine Verbindung zu einem externen Dienst her. Es ruft keine Remote-APIs auf, lädt keine Skripte, Schriftarten oder Tracker von Drittanbietern und sendet nichts von deiner Website. Sein einziges Stylesheet und Skript werden aus dem Plugin-Ordner bereitgestellt und einfach auf dem WooCommerce → Surcharge-Admin-Bildschirm geladen."
+
+msgid "All data stays in your own database: your fee rows and the master switch are kept in the `surcharge_settings` option, and a schema marker in `surcharge_db_version`. Both options are removed when you delete the plugin. The plugin creates no custom tables and sends no email; fees are applied at runtime through WooCommerce's own cart fees API."
+msgstr "Alle Daten bleiben in deiner eigenen Datenbank: deine Gebührenzeilen und der Hauptschalter werden in der Option „surcharge_settings“ und eine Schemamarkierung in „surcharge_db_version“ gespeichert. Beide Optionen werden entfernt, wenn du das Plugin löschen. Das Plugin erstellt keine benutzerdefinierten Tabellen und sendet keine E-Mails. Gebühren werden zur Laufzeit über WooCommerces eigene Warenkorbgebühren-API erhoben."
+
+msgid "* First stable release."
+msgstr "* Erste stabile Version."
+
+msgid "* Renamed to Plogins Surcharge for WooCommerce for a more distinctive plugin name."
+msgstr "* Umbenannt in „Plogins Surcharge for WooCommerce“, um einen markanteren Plugin-Namen zu erhalten."
+
+msgid "* `surcharge/fee_amount` filter so add-ons can override per-fee amounts (e.g. tiered rules in Surcharge Pro)."
+msgstr "* „surcharge/fee_amount“-Filter, damit Add-ons die Beträge pro Gebühr überschreiben können (z. B. gestaffelte Regeln in Surcharge Pro)."
+
+msgid "* Initial release: fixed and percentage checkout fees, taxable option, and a master switch."
+msgstr "* Erstveröffentlichung: feste und prozentuale Checkout-Gebühren, steuerpflichtige Option und ein Hauptschalter."
+
