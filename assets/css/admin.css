@@ -353,44 +353,6 @@
 }
 
 /* ---- Dark mode ------------------------------------------------------- */
-
-@media (prefers-color-scheme: dark) {
-	.surcharge-admin {
-		--surcharge-accent: #2dd4bf;
-		--surcharge-accent-strong: #5eead4;
-		--surcharge-accent-soft: #133a36;
-		/* On bright mint, white drops to 1.86:1 — flip the label to deep
-		   teal-ink (7.70:1) to keep the teal identity while passing AA. */
-		--surcharge-on-accent: #06302b;
-		--surcharge-ink: #cfe9e4;
-		--surcharge-paper: #20262b;
-		--surcharge-paper-edge: #262c31;
-		--surcharge-surface: #1e2127;
-		--surcharge-surface-muted: #262a31;
-		--surcharge-border: #3a3f47;
-		--surcharge-text: #e7e9ec;
-		--surcharge-text-muted: #a7acb3;
-		--surcharge-success: #4cc38a;
-		--surcharge-danger: #f08a8a;
-		--surcharge-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-	}
-
-	.surcharge-fee {
-		background-image:
-			repeating-linear-gradient(
-				to bottom,
-				transparent 0,
-				transparent 27px,
-				rgba(207, 233, 228, 0.05) 27px,
-				rgba(207, 233, 228, 0.05) 28px
-			);
-	}
-
-	.surcharge-admin__status--off {
-		background: #2a2e35;
-	}
-}
-
 /* ---- Motion ---------------------------------------------------------- */
 
 @media (prefers-reduced-motion: reduce) {
