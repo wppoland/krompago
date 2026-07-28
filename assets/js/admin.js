@@ -1,5 +1,5 @@
 /**
- * Surcharge — admin settings enhancements (vanilla JS, no jQuery).
+ * Surcharge, admin settings enhancements (vanilla JS, no jQuery).
  *
  * Progressive enhancement only; the form works without JS (the first row is
  * always present and saved on submit). JS adds repeatable fee rows (add /

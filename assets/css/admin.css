@@ -1,9 +1,9 @@
 /**
- * Surcharge — admin settings UI.
+ * Surcharge, admin settings UI.
  *
  * The plugin's job is a single line on a receipt: the extra charge at the
  * bottom of the till slip. So the settings screen is dressed as a register
- * receipt — warm paper surface, an ink-teal "till" accent (not the default
+ * receipt, warm paper surface, an ink-teal "till" accent (not the default
  * blue), a monospace amount readout, and a perforated edge on each fee row.
  * The one crafted moment is the fee row's type readout, which stamps "+ FIXED"
  * or "+ %" the way a register prints a line.
@@ -14,7 +14,7 @@
  */
 
 .surcharge-admin {
-	/* Register ink-teal accent — deliberately NOT default admin blue. */
+	/* Register ink-teal accent, deliberately NOT default admin blue. */
 	--surcharge-accent: #0f766e;
 	--surcharge-accent-strong: #0b5d56;
 	--surcharge-accent-soft: #e3f2f0;
@@ -138,7 +138,7 @@
 	margin-top: 0;
 }
 
-/* ---- Fee rows — the receipt slip ------------------------------------- */
+/* ---- Fee rows, the receipt slip ------------------------------------- */
 /*
  * THE MOMENT THAT MATTERS. Each fee row is a till slip: warm paper, a torn
  * perforated top edge, and a monospace amount that reads like a printed line.
@@ -162,7 +162,7 @@
 		);
 }
 
-/* Perforated tear edge along the top — reads as a receipt the moment you see it. */
+/* Perforated tear edge along the top, reads as a receipt the moment you see it. */
 .surcharge-fee::before {
 	content: "";
 	position: absolute;
@@ -204,7 +204,7 @@
 	color: var(--surcharge-ink);
 }
 
-/* Per-field help — names the effect, not the label. Muted but AA-legible
+/* Per-field help, names the effect, not the label. Muted but AA-legible
    (5.22:1 on the warm paper surface). */
 .surcharge-fee__help {
 	display: block;
@@ -254,11 +254,11 @@
 	outline: 2px solid transparent;
 }
 
-/* ---- The till readout — the single crafted moment -------------------- */
+/* ---- The till readout, the single crafted moment -------------------- */
 /*
  * A monospace stamp that mirrors the chosen fee type, sitting where a register
  * prints the kind of line. JS swaps its glyph ($ / %) on type change; the
- * glyph settles with a brief ink press. Presentation only — the <select> is
+ * glyph settles with a brief ink press. Presentation only, the <select> is
  * still the source of truth and works with JS off (this is then just decor).
  */
 
@@ -353,44 +353,6 @@
 }
 
 /* ---- Dark mode ------------------------------------------------------- */
-
-@media (prefers-color-scheme: dark) {
-	.surcharge-admin {
-		--surcharge-accent: #2dd4bf;
-		--surcharge-accent-strong: #5eead4;
-		--surcharge-accent-soft: #133a36;
-		/* On bright mint, white drops to 1.86:1 — flip the label to deep
-		   teal-ink (7.70:1) to keep the teal identity while passing AA. */
-		--surcharge-on-accent: #06302b;
-		--surcharge-ink: #cfe9e4;
-		--surcharge-paper: #20262b;
-		--surcharge-paper-edge: #262c31;
-		--surcharge-surface: #1e2127;
-		--surcharge-surface-muted: #262a31;
-		--surcharge-border: #3a3f47;
-		--surcharge-text: #e7e9ec;
-		--surcharge-text-muted: #a7acb3;
-		--surcharge-success: #4cc38a;
-		--surcharge-danger: #f08a8a;
-		--surcharge-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-	}
-
-	.surcharge-fee {
-		background-image:
-			repeating-linear-gradient(
-				to bottom,
-				transparent 0,
-				transparent 27px,
-				rgba(207, 233, 228, 0.05) 27px,
-				rgba(207, 233, 228, 0.05) 28px
-			);
-	}
-
-	.surcharge-admin__status--off {
-		background: #2a2e35;
-	}
-}
-
 /* ---- Motion ---------------------------------------------------------- */
 
 @media (prefers-reduced-motion: reduce) {
@@ -410,28 +372,17 @@
 }
 
 /* ------------------------------------------------------------------ *
- * PRO upsell — dismissible banner, sidebar promo, "what PRO adds"
+ * PRO upsell, dismissible banner, sidebar promo, "what PRO adds"
  * locked cards. Pure advertising (no disabled inputs), scoped to
- * .surcharge-admin, using the plugin's own ink-teal accent. The CTA
- * buttons use a fixed deep teal (--surcharge-pro-cta) so white text
- * clears WCAG AA regardless of colour scheme; the brighter accent is
- * decorative only.
+ * .surcharge-admin so nothing leaks into core wp-admin. Reuses the
+ * register ink-teal accent so it sits inside the plugin's own theme.
  * ------------------------------------------------------------------ */
-.surcharge-admin {
-	--surcharge-pro-muted: #646970;
-	/* Fixed deep teal for white-on-accent surfaces (CTA fill, ink text):
-	   white on #0b5d56 is ~6.9:1, so it never fails even when the themeable
-	   --surcharge-accent brightens to mint under prefers-color-scheme: dark. */
-	--surcharge-pro-cta: #0b5d56;
-	--surcharge-pro-radius: 8px;
-	--surcharge-pro-radius-sm: 6px;
-	--surcharge-pro-gap: 20px;
-}
 
-/* Two-column wrapper (form + promo aside); single column on narrow screens. */
-.surcharge-admin .surcharge-cols { display: grid; gap: var(--surcharge-pro-gap); grid-template-columns: 1fr; align-items: start; }
-@media (min-width: 1100px) {
-	.surcharge-admin .surcharge-cols { grid-template-columns: minmax(0, 1fr) 300px; }
+.surcharge-admin {
+	--surcharge-pro-muted: var(--surcharge-text-muted, #646970);
+	--surcharge-pro-radius: var(--surcharge-radius, 10px);
+	--surcharge-pro-radius-sm: var(--surcharge-radius-sm, 6px);
+	--surcharge-pro-gap: 20px;
 }
 
 /* Top banner */
@@ -439,9 +390,9 @@
 	display: flex;
 	align-items: center;
 	gap: 14px;
-	margin: 0 0 var(--surcharge-pro-gap);
+	margin: 1em 0 var(--surcharge-pro-gap);
 	padding: 12px 16px;
-	border: 1px solid color-mix(in srgb, var(--surcharge-accent) 30%, #dcdcde);
+	border: 1px solid color-mix(in srgb, var(--surcharge-accent) 30%, var(--surcharge-border, #dcdcde));
 	border-inline-start: 4px solid var(--surcharge-accent);
 	border-radius: var(--surcharge-pro-radius);
 	background: color-mix(in srgb, var(--surcharge-accent) 7%, #fff);
@@ -451,40 +402,40 @@
 .surcharge-admin .surcharge-pro-aside__eyebrow {
 	font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
 }
-.surcharge-admin .surcharge-pro-banner__tag { flex: 0 0 auto; padding: 2px 8px; border-radius: 999px; color: #fff; background: var(--surcharge-pro-cta); }
-.surcharge-admin .surcharge-pro-banner__text { flex: 1 1 auto; margin: 0; color: #1d2327; }
+.surcharge-admin .surcharge-pro-banner__tag { flex: 0 0 auto; padding: 2px 8px; border-radius: 999px; color: #fff; background: var(--surcharge-accent-strong); }
+.surcharge-admin .surcharge-pro-banner__text { flex: 1 1 auto; margin: 0; color: var(--surcharge-text, #1d2327); }
 .surcharge-admin .surcharge-pro-banner__sub { margin-inline-start: 4px; color: var(--surcharge-pro-muted); }
 .surcharge-admin .surcharge-pro-banner__price { margin-inline-start: 6px; color: var(--surcharge-pro-muted); font-weight: 600; white-space: nowrap; }
 .surcharge-admin .surcharge-pro-banner__dismiss { flex: 0 0 auto; font-size: 18px; line-height: 1; text-decoration: none; color: var(--surcharge-pro-muted); padding: 4px; border-radius: 4px; }
-.surcharge-admin .surcharge-pro-banner__dismiss:hover { color: #1d2327; background: rgba(0, 0, 0, .05); }
+.surcharge-admin .surcharge-pro-banner__dismiss:hover { color: var(--surcharge-text, #1d2327); background: rgba(0, 0, 0, .05); }
 
-/* Accent CTA buttons (override WP blue with the readable deep-teal accent) */
+/* Accent CTA buttons (override WP blue with the register ink-teal accent) */
 .surcharge-admin .surcharge-pro-banner__cta.button-primary,
 .surcharge-admin .surcharge-pro-aside__cta.button-primary {
-	background: var(--surcharge-pro-cta); border-color: color-mix(in srgb, var(--surcharge-pro-cta) 80%, #000); color: #fff; text-shadow: none; box-shadow: none;
+	background: var(--surcharge-accent-strong); border-color: color-mix(in srgb, var(--surcharge-accent-strong) 80%, #000); color: #fff; text-shadow: none; box-shadow: none;
 }
 .surcharge-admin .surcharge-pro-banner__cta.button-primary:hover,
-.surcharge-admin .surcharge-pro-aside__cta.button-primary:hover { background: color-mix(in srgb, var(--surcharge-pro-cta) 88%, #000); }
+.surcharge-admin .surcharge-pro-aside__cta.button-primary:hover { background: color-mix(in srgb, var(--surcharge-accent-strong) 88%, #000); }
 
 /* Sidebar promo card */
 .surcharge-admin .surcharge-pro-aside {
-	background: #fff; border: 1px solid #dcdcde; border-top: 3px solid var(--surcharge-accent); border-radius: var(--surcharge-pro-radius); padding: 18px 20px; position: sticky; top: 40px;
+	background: #fff; border: 1px solid var(--surcharge-border, #dcdcde); border-top: 3px solid var(--surcharge-accent); border-radius: var(--surcharge-pro-radius); padding: 18px 20px;
 }
-.surcharge-admin .surcharge-pro-aside__eyebrow { margin: 0 0 4px; color: var(--surcharge-pro-cta); }
+.surcharge-admin .surcharge-pro-aside__eyebrow { margin: 0 0 4px; color: var(--surcharge-accent-strong); }
 .surcharge-admin .surcharge-pro-aside__heading { margin: 0 0 12px; font-size: 16px; line-height: 1.3; }
 .surcharge-admin .surcharge-pro-aside__list { margin: 0 0 16px; padding: 0; list-style: none; }
-.surcharge-admin .surcharge-pro-aside__list li { display: flex; align-items: flex-start; gap: 8px; padding: 5px 0; color: #1d2327; font-size: 13px; }
+.surcharge-admin .surcharge-pro-aside__list li { display: flex; align-items: flex-start; gap: 8px; padding: 5px 0; color: var(--surcharge-text, #1d2327); font-size: 13px; }
 .surcharge-admin .surcharge-pro-aside__lock::before,
 .surcharge-admin .surcharge-pro-card__lock::before { content: "\f160"; font-family: dashicons; font-size: 15px; line-height: 1.2; color: var(--surcharge-accent); }
 .surcharge-admin .surcharge-pro-aside__cta { width: 100%; text-align: center; }
 .surcharge-admin .surcharge-pro-aside__price { margin: 10px 0 0; font-size: 12px; color: var(--surcharge-pro-muted); text-align: center; }
 
 /* "What PRO adds" locked cards */
-.surcharge-admin .surcharge-pro-cards { max-width: 60rem; margin: var(--surcharge-pro-gap) 0 0; }
+.surcharge-admin .surcharge-pro-cards { margin: var(--surcharge-pro-gap) 0 0; }
 .surcharge-admin .surcharge-pro-cards__title { font-size: 15px; margin: 0 0 12px; }
 .surcharge-admin .surcharge-pro-cards__grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
-.surcharge-admin .surcharge-pro-card { position: relative; padding: 16px; border: 1px solid #dcdcde; border-radius: var(--surcharge-pro-radius-sm); background: color-mix(in srgb, var(--surcharge-accent) 3%, #fff); }
-.surcharge-admin .surcharge-pro-card__badge { position: absolute; top: 12px; inset-inline-end: 12px; padding: 1px 7px; border-radius: 999px; color: var(--surcharge-pro-cta); border: 1px solid color-mix(in srgb, var(--surcharge-accent) 40%, #fff); }
+.surcharge-admin .surcharge-pro-card { position: relative; padding: 16px; border: 1px solid var(--surcharge-border, #dcdcde); border-radius: var(--surcharge-pro-radius-sm); background: color-mix(in srgb, var(--surcharge-accent) 3%, #fff); }
+.surcharge-admin .surcharge-pro-card__badge { position: absolute; top: 12px; inset-inline-end: 12px; padding: 1px 7px; border-radius: 999px; color: var(--surcharge-accent-strong); border: 1px solid color-mix(in srgb, var(--surcharge-accent) 40%, #fff); }
 .surcharge-admin .surcharge-pro-card__lock { display: inline-block; margin-bottom: 6px; }
 .surcharge-admin .surcharge-pro-card__title { margin: 0 0 6px; font-size: 14px; line-height: 1.3; }
 .surcharge-admin .surcharge-pro-card__desc { margin: 0; font-size: 12.5px; line-height: 1.5; color: var(--surcharge-pro-muted); }

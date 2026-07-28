@@ -39,8 +39,7 @@ msgstr ""
 msgid "https://wppoland.com"
 msgstr ""
 
-#: src/Admin/Settings.php:62
-#: src/Admin/Settings.php:63
+#: src/Admin/Settings.php:62 src/Admin/Settings.php:63
 msgid "Surcharge"
 msgstr ""
 
@@ -57,7 +56,9 @@ msgid "Add checkout fees in two steps"
 msgstr ""
 
 #: src/Admin/Settings.php:111
-msgid "1. Add a fee row below. 2. Choose a fixed amount or a percentage of the cart. Fees appear in the cart, at checkout and on the order."
+msgid ""
+"1. Add a fee row below. 2. Choose a fixed amount or a percentage of the "
+"cart. Fees appear in the cart, at checkout and on the order."
 msgstr ""
 
 #: src/Admin/Settings.php:119
@@ -73,7 +74,9 @@ msgid "Apply the fees below at cart and checkout."
 msgstr ""
 
 #: src/Admin/Settings.php:131
-msgid "Master switch. When off, no fees are added to any cart, regardless of the rows below."
+msgid ""
+"Master switch. When off, no fees are added to any cart, regardless of the "
+"rows below."
 msgstr ""
 
 #: src/Admin/Settings.php:140
@@ -84,8 +87,7 @@ msgstr ""
 msgid "Each row is one fee. A fee with no label is skipped."
 msgstr ""
 
-#: src/Admin/Settings.php:145
-#: src/Admin/Settings.php:159
+#: src/Admin/Settings.php:145 src/Admin/Settings.php:159
 msgid "Add fee"
 msgstr ""
 
@@ -102,7 +104,9 @@ msgid "e.g. Handling fee"
 msgstr ""
 
 #: src/Admin/Settings.php:193
-msgid "The wording customers see on the cart, checkout and order. Leave blank to skip this row."
+msgid ""
+"The wording customers see on the cart, checkout and order. Leave blank to "
+"skip this row."
 msgstr ""
 
 #: src/Admin/Settings.php:197
@@ -118,7 +122,9 @@ msgid "Percentage of cart"
 msgstr ""
 
 #: src/Admin/Settings.php:202
-msgid "Fixed adds the same amount every order. Percentage scales with the cart subtotal."
+msgid ""
+"Fixed adds the same amount every order. Percentage scales with the cart "
+"subtotal."
 msgstr ""
 
 #: src/Admin/Settings.php:206
@@ -142,7 +148,9 @@ msgid "Taxable"
 msgstr ""
 
 #: src/Admin/Settings.php:232
-msgid "On: tax is calculated on this fee using your standard rate. Off: the fee is added tax-free."
+msgid ""
+"On: tax is calculated on this fee using your standard rate. Off: the fee is "
+"added tax-free."
 msgstr ""
 
 #: src/Admin/Settings.php:239
@@ -158,5 +166,66 @@ msgid "Remove fee"
 msgstr ""
 
 #: surcharge.php:47
-msgid "Surcharge - Checkout Fees for WooCommerce requires WooCommerce to be active."
+msgid ""
+"Surcharge - Checkout Fees for WooCommerce requires WooCommerce to be active."
+msgstr ""
+
+#: src/Admin/ProUpsell.php:79
+msgid "Wkrótce"
+msgstr ""
+
+#: src/Admin/ProUpsell.php:79
+msgid "Coming soon"
+msgstr ""
+
+#. translators: %d: yearly price in PLN
+#: src/Admin/ProUpsell.php:84
+#, php-format
+msgid "od %d zł/rok"
+msgstr ""
+
+#. translators: 1: currency symbol, 2: yearly price
+#: src/Admin/ProUpsell.php:89
+#, php-format
+msgid "from %1$s%2$d/yr"
+msgstr ""
+
+#: src/Admin/ProUpsell.php:98
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: src/Admin/ProUpsell.php:99
+msgid "Powiadom mnie"
+msgstr ""
+
+#: src/Admin/ProUpsell.php:99
+msgid "Get notified"
+msgstr ""
+
+#: src/Admin/ProUpsell.php:129
+msgid "Permission denied."
+msgstr ""
+
+#. translators: %s: PRO edition name
+#: src/Admin/ProUpsell.php:159
+#, php-format
+msgid "Do more with %s"
+msgstr ""
+
+#: src/Admin/ProUpsell.php:166
+msgid "Dismiss this notice"
+msgstr ""
+
+#: src/Admin/ProUpsell.php:183
+msgid "Unlock every PRO feature"
+msgstr ""
+
+#: src/Admin/ProUpsell.php:196
+msgid "one licence, every PRO feature"
+msgstr ""
+
+#. translators: %s: PRO edition name
+#: src/Admin/ProUpsell.php:215
+#, php-format
+msgid "What %s adds"
 msgstr ""

@@ -4,18 +4,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Surcharge - Checkout Fees for WooCommerce 0.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/surcharge\n"
-"POT-Creation-Date: 2026-06-16T20:24:17+00:00\n"
+"POT-Creation-Date: 2026-06-18T14:25:09+00:00\n"
 "PO-Revision-Date: 2026-06-15 00:00+0000\n"
-"Last-Translator: WPPoland <hello@plogins.com>\n"
-"Language-Team: Polish <pl_PL@li.org>\n"
+"Last-Translator: motylanogha <szatkowski.mariusz@gmail.com>\n"
+"Language-Team: Polish <pl@li.org>\n"
 "Language: pl_PL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
 "|| n%100>14) ? 1 : 2);\n"
-"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: plogins-surcharge\n"
+"X-Generator: WP-CLI 2.12.0\n"
 
 #. Plugin Name of the plugin
 #: surcharge.php
@@ -35,13 +35,13 @@ msgstr ""
 
 #. Author of the plugin
 #: surcharge.php
-msgid "WPPoland"
-msgstr "WPPoland"
+msgid "WPPoland.com"
+msgstr "WPPoland.com"
 
 #. Author URI of the plugin
 #: surcharge.php
-msgid "https://plogins.com/"
-msgstr "https://plogins.com/"
+msgid "https://wppoland.com"
+msgstr "https://wppoland.com"
 
 #: src/Admin/Settings.php:62 src/Admin/Settings.php:63
 msgid "Surcharge"
@@ -117,6 +117,8 @@ msgid ""
 "The wording customers see on the cart, checkout and order. Leave blank to "
 "skip this row."
 msgstr ""
+"Sformułowanie, które klienci widzą na koszyku, kasie i zamówieniu. Pozostaw "
+"puste, aby pominąć ten wiersz."
 
 #: src/Admin/Settings.php:197
 msgid "Type"
@@ -135,6 +137,8 @@ msgid ""
 "Fixed adds the same amount every order. Percentage scales with the cart "
 "subtotal."
 msgstr ""
+"Opcja „Kwota stała” dodaje tę samą kwotę do każdego zamówienia. Wartość "
+"procentowa skaluje się wraz z sumą częściową koszyka."
 
 #: src/Admin/Settings.php:206
 msgid "Amount"
@@ -142,15 +146,15 @@ msgstr "Kwota"
 
 #: src/Admin/Settings.php:209
 msgid "Charged in your store currency, e.g. 3.50."
-msgstr ""
+msgstr "Opłata w walucie Twojego sklepu, np. 3,50."
 
 #: src/Admin/Settings.php:210
 msgid "A percentage from 0 to 100, e.g. 2.5 adds 2.5% of the subtotal."
-msgstr ""
+msgstr "Wartość procentowa od 0 do 100, np. 2,5 dodaje 2,5% sumy częściowej."
 
 #: src/Admin/Settings.php:223
 msgid "Receipt line"
-msgstr ""
+msgstr "Linia odbioru"
 
 #: src/Admin/Settings.php:230
 msgid "Taxable"
@@ -161,6 +165,8 @@ msgid ""
 "On: tax is calculated on this fee using your standard rate. Off: the fee is "
 "added tax-free."
 msgstr ""
+"Wł.: podatek jest obliczany od tej opłaty przy użyciu stawki standardowej. "
+"Off: opłata jest doliczana bez podatku."
 
 #: src/Admin/Settings.php:239
 msgid "Enabled"
@@ -168,7 +174,7 @@ msgstr "Włączona"
 
 #: src/Admin/Settings.php:240
 msgid "Off keeps the row saved but stops charging it."
-msgstr ""
+msgstr "Opcja „Wył.” zapisuje wiersz, ale przestaje naliczać opłatę."
 
 #: src/Admin/Settings.php:242
 msgid "Remove fee"
@@ -180,3 +186,69 @@ msgid ""
 msgstr ""
 "Surcharge - Opłaty przy zamówieniu dla WooCommerce wymaga aktywnej wtyczki "
 "WooCommerce."
+
+#: src/Admin/ProUpsell.php:79
+msgid "Wkrótce"
+msgstr "Wkrótce"
+
+#: src/Admin/ProUpsell.php:79
+msgid "Coming soon"
+msgstr "Wkrótce"
+
+#. translators: %d: yearly price in PLN
+#: src/Admin/ProUpsell.php:84
+#, php-format
+msgid "od %d zł/rok"
+msgstr "od %d zł/rok"
+
+#. translators: 1: currency symbol, 2: yearly price
+#: src/Admin/ProUpsell.php:89
+#, php-format
+msgid "from %1$s%2$d/yr"
+msgstr "od %1$s%2$d/rok"
+
+#: src/Admin/ProUpsell.php:98
+msgid "Upgrade to PRO"
+msgstr "Przejdź na PRO"
+
+#: src/Admin/ProUpsell.php:99
+msgid "Powiadom mnie"
+msgstr "Powiadom mnie"
+
+#: src/Admin/ProUpsell.php:99
+msgid "Get notified"
+msgstr "Powiadom mnie"
+
+#: src/Admin/ProUpsell.php:129
+msgid "Permission denied."
+msgstr "Brak uprawnień."
+
+#. translators: %s: PRO edition name
+#: src/Admin/ProUpsell.php:159
+#, php-format
+msgid "Do more with %s"
+msgstr "Zrób więcej dzięki %s"
+
+#: src/Admin/ProUpsell.php:166
+msgid "Dismiss this notice"
+msgstr "Odrzuć to powiadomienie"
+
+#: src/Admin/ProUpsell.php:183
+msgid "Unlock every PRO feature"
+msgstr "Odblokuj wszystkie funkcje PRO"
+
+#: src/Admin/ProUpsell.php:196
+msgid "one licence, every PRO feature"
+msgstr "jedna licencja, wszystkie funkcje PRO"
+
+#. translators: %s: PRO edition name
+#: src/Admin/ProUpsell.php:215
+#, php-format
+msgid "What %s adds"
+msgstr "Co dodaje %s"
+
+#~ msgid "WPPoland"
+#~ msgstr "WPPoland"
+
+#~ msgid "https://plogins.com/"
+#~ msgstr "https://plogins.com/"
