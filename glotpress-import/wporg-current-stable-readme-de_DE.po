@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Gebühren werden über die WooCommerce-Gebühren-API hinzugefügt, sodass sie in"
 " den Warenkorbsummen, auf der Kassenseite und in der gespeicherten "
-"Bestellung erscheinen – genau wie Versand oder Steuern. Die Warenkorb- und "
+"Bestellung erscheinen, genau wie Versand oder Steuern. Die Warenkorb- und "
 "Kassenblöcke sowie HPOS werden beide unterstützt."
 
 msgid ""

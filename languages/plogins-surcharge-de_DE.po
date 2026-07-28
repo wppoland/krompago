@@ -19,7 +19,7 @@ msgstr ""
 #. Plugin Name of the plugin
 #: surcharge.php
 msgid "Surcharge - Checkout Fees for WooCommerce"
-msgstr "Zuschlag – Checkout-Gebühren für WooCommerce"
+msgstr "Zuschlag, Checkout-Gebühren für WooCommerce"
 
 #. Plugin URI of the plugin
 #: surcharge.php
@@ -187,7 +187,7 @@ msgstr "Gebühr entfernen"
 msgid ""
 "Surcharge - Checkout Fees for WooCommerce requires WooCommerce to be active."
 msgstr ""
-"Zuschlag – Checkout-Gebühren für WooCommerce erfordern, dass WooCommerce "
+"Zuschlag, Checkout-Gebühren für WooCommerce erfordern, dass WooCommerce "
 "aktiv ist."
 
 #: src/Admin/ProUpsell.php:79

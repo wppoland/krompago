@@ -15,7 +15,7 @@ Dodaj opłaty stałe lub procentowe do koszyka i kasy WooCommerce.
 
 Surcharge pozwala dodać jedną lub więcej opłat do koszyka i kasy WooCommerce. Każda opłata to kwota stała lub procent sumy częściowej koszyka.
 
-Opłaty są dodawane przez API opłat WooCommerce, więc pojawiają się w podsumowaniu koszyka, na stronie kasy oraz w zapisanym zamówieniu — tak samo jak wysyłka czy podatek. Obsługiwane są zarówno bloki koszyka i kasy, jak i HPOS.
+Opłaty są dodawane przez API opłat WooCommerce, więc pojawiają się w podsumowaniu koszyka, na stronie kasy oraz w zapisanym zamówieniu, tak samo jak wysyłka czy podatek. Obsługiwane są zarówno bloki koszyka i kasy, jak i HPOS.
 
 Kod znajdziesz pod adresem https://github.com/wppoland/plogins-surcharge, jeśli chcesz go przeczytać, zgłosić błąd lub zaproponować rodzaj opłaty.
 
@@ -29,7 +29,7 @@ Kod znajdziesz pod adresem https://github.com/wppoland/plogins-surcharge, jeśli
 
 = What it does =
 
-* Dodaj tyle opłat, ile potrzebujesz — każda to kwota stała lub procent wartości koszyka.
+* Dodaj tyle opłat, ile potrzebujesz, każda to kwota stała lub procent wartości koszyka.
 * Oznacz opłatę jako podlegającą opodatkowaniu, aby WooCommerce zastosował do niej Twoje zwykłe reguły podatkowe.
 * Wyłącz wszystkie opłaty naraz jednym głównym przełącznikiem, bez utraty skonfigurowanych wierszy.
 * Włączaj lub wyłączaj poszczególne opłaty, dzięki czemu możesz zachować opłatę skonfigurowaną, ale nieaktywną.

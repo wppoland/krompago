@@ -15,7 +15,7 @@ Füge dem WooCommerce-Warenkorb und der Kasse feste oder prozentuale Gebühren h
 
 Mit Surcharge kannst du eine oder mehrere Gebühren zum WooCommerce-Warenkorb und zur Kasse hinzufügen. Jede Gebühr ist entweder ein fester Betrag oder ein Prozentsatz der Zwischensumme des Warenkorbs.
 
-Gebühren werden über die WooCommerce-Gebühren-API hinzugefügt, sodass sie in den Warenkorbsummen, auf der Kassenseite und in der gespeicherten Bestellung erscheinen – genau wie Versand oder Steuern. Die Warenkorb- und Kassenblöcke sowie HPOS werden beide unterstützt.
+Gebühren werden über die WooCommerce-Gebühren-API hinzugefügt, sodass sie in den Warenkorbsummen, auf der Kassenseite und in der gespeicherten Bestellung erscheinen, genau wie Versand oder Steuern. Die Warenkorb- und Kassenblöcke sowie HPOS werden beide unterstützt.
 
 Der Code liegt unter https://github.com/wppoland/plogins-surcharge, falls du ihn lesen, einen Fehler melden oder einen Gebührentyp vorschlagen möchtest.
 
