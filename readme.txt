@@ -17,14 +17,14 @@ Surcharge lets you add one or more fees to the WooCommerce cart and checkout. Ea
 
 Fees are added through the WooCommerce fees API, so they appear in the cart totals, on the checkout page, and on the saved order, the same way shipping or tax does. The cart and checkout blocks and HPOS are both supported.
 
-The code lives at https://github.com/wppoland/plogins-surcharge if you want to read it, report a bug, or suggest a fee type.
+The code lives at [github.com/wppoland/plogins-surcharge](https://github.com/wppoland/plogins-surcharge) if you want to read it, report a bug, or suggest a fee type.
 
 = Documentation and links =
 
-* **Documentation** - https://plogins.com/plogins-surcharge/docs/
-* **Plugin page** - https://plogins.com/plogins-surcharge/
-* **Source code** - https://github.com/wppoland/plogins-surcharge
-* **Bug reports and feature requests** - https://github.com/wppoland/plogins-surcharge/issues
+* **Documentation**: [plogins.com/plogins-surcharge/docs/](https://plogins.com/plogins-surcharge/docs/)
+* **Plugin page**: [plogins.com/plogins-surcharge/](https://plogins.com/plogins-surcharge/)
+* **Source code**: [github.com/wppoland/plogins-surcharge](https://github.com/wppoland/plogins-surcharge)
+* **Bug reports and feature requests**: [github.com/wppoland/plogins-surcharge/issues](https://github.com/wppoland/plogins-surcharge/issues)
 
 
 = What it does =
