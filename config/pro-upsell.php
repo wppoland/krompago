@@ -15,7 +15,6 @@ return [
     'sellable'   => true,
     'price_from' => 29,
     'currency'   => 'EUR',
-    'price_pln'  => 129,
     'lead'       => [
         'en' => 'Role exemptions, tiered fees, per-product rules, schedule windows and per-fee reporting ship in the 0.5.0 release.',
         'pl' => 'Zwolnienia ról, opłaty progowe, reguły per produkt, harmonogramy i raporty per opłata są wdrożone w wydaniu 0.5.0.',
