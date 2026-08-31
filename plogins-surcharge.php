@@ -25,7 +25,7 @@ namespace Surcharge;
 
 defined('ABSPATH') || exit;
 
-const VERSION     = '1.0.5';
+const VERSION     = '1.0.6';
 const PLUGIN_FILE = __FILE__;
 
 define('SURCHARGE_DIR', plugin_dir_path(__FILE__));
