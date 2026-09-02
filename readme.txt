@@ -82,7 +82,7 @@ All data stays in your own database: your fee rows and the master switch are kep
 
 == Translations ==
 
-Plogins Surcharge includes Polish, German and Spanish translations for the plugin interface. The text domain is `plogins-surcharge`, so WordPress.org language packs can also override or extend these bundled translations.
+Plogins Surcharge is fully translatable and ships the `plogins-surcharge.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
 
