@@ -185,9 +185,10 @@ msgstr "Gebühr entfernen"
 
 #: surcharge.php:47
 msgid ""
-"Surcharge - Checkout Fees for WooCommerce requires WooCommerce to be active."
+"Plogins Surcharge - Checkout Fees for WooCommerce requires WooCommerce to be "
+"active."
 msgstr ""
-"Zuschlag, Checkout-Gebühren für WooCommerce erfordern, dass WooCommerce "
+"Plogins Surcharge - Checkout Fees for WooCommerce erfordert, dass WooCommerce "
 "aktiv ist."
 
 #: src/Admin/ProUpsell.php:79

@@ -182,9 +182,10 @@ msgstr "Usuń opłatę"
 
 #: surcharge.php:47
 msgid ""
-"Surcharge - Checkout Fees for WooCommerce requires WooCommerce to be active."
+"Plogins Surcharge - Checkout Fees for WooCommerce requires WooCommerce to be "
+"active."
 msgstr ""
-"Surcharge - Opłaty przy zamówieniu dla WooCommerce wymaga aktywnej wtyczki "
+"Plogins Surcharge - Checkout Fees for WooCommerce wymaga aktywnej wtyczki "
 "WooCommerce."
 
 #: src/Admin/ProUpsell.php:79

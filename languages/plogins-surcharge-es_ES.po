@@ -182,10 +182,11 @@ msgstr "Eliminar tarifa"
 
 #: surcharge.php:47
 msgid ""
-"Surcharge - Checkout Fees for WooCommerce requires WooCommerce to be active."
+"Plogins Surcharge - Checkout Fees for WooCommerce requires WooCommerce to be "
+"active."
 msgstr ""
-"Recargo: las tarifas de pago de WooCommerce requieren que WooCommerce esté "
-"activo."
+"Plogins Surcharge - Checkout Fees for WooCommerce requiere que WooCommerce "
+"esté activo."
 
 #: src/Admin/ProUpsell.php:79
 msgid "Wkrótce"
