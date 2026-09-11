@@ -33,14 +33,14 @@ Kod znajdziesz pod adresem https://github.com/wppoland/plogins-surcharge, jeśli
 * Oznacz opłatę jako podlegającą opodatkowaniu, aby WooCommerce zastosował do niej Twoje zwykłe reguły podatkowe.
 * Wyłącz wszystkie opłaty naraz jednym głównym przełącznikiem, bez utraty skonfigurowanych wierszy.
 * Włączaj lub wyłączaj poszczególne opłaty, dzięki czemu możesz zachować opłatę skonfigurowaną, ale nieaktywną.
-* Zarządzaj wszystkim z jednego ekranu ustawień w WooCommerce → Surcharge.
+* Zarządzaj wszystkim z jednego ekranu ustawień w WooCommerce > Surcharge.
 * Brak usług zewnętrznych, brak konta, brak śledzenia.
 
 == Installation ==
 
-1. Wgraj wtyczkę do `/wp-content/plugins/plogins-surcharge` lub zainstaluj przez Wtyczki → Dodaj nową.
+1. Wgraj wtyczkę do `/wp-content/plugins/plogins-surcharge` lub zainstaluj przez Wtyczki > Dodaj nową.
 2. Włącz ją. WooCommerce musi być aktywne.
-3. Przejdź do WooCommerce → Surcharge i dodaj swoją pierwszą opłatę.
+3. Przejdź do WooCommerce > Surcharge i dodaj swoją pierwszą opłatę.
 
 == Frequently Asked Questions ==
 
@@ -76,7 +76,7 @@ Tak. Ta wtyczka jest zgodna z WordPress Multisite. Włącz ją dla całej sieci 
 3. Na urządzeniu mobilnym.
 == External Services ==
 
-Surcharge nie łączy się z żadną usługą zewnętrzną. Nie wywołuje zdalnych API, nie ładuje skryptów, czcionek ani modułów śledzących innych firm i nie wysyła niczego poza Twoją witrynę. Jego jedyny arkusz stylów i skrypt są dostarczane z folderu wtyczki i ładowane tylko na ekranie administracyjnym WooCommerce → Surcharge.
+Surcharge nie łączy się z żadną usługą zewnętrzną. Nie wywołuje zdalnych API, nie ładuje skryptów, czcionek ani modułów śledzących innych firm i nie wysyła niczego poza Twoją witrynę. Jego jedyny arkusz stylów i skrypt są dostarczane z folderu wtyczki i ładowane tylko na ekranie administracyjnym WooCommerce > Surcharge.
 
 Wszystkie dane pozostają w Twojej własnej bazie danych: wiersze opłat i główny przełącznik są przechowywane w opcji `surcharge_settings`, a znacznik schematu w `surcharge_db_version`. Obie opcje są usuwane po usunięciu wtyczki. Wtyczka nie tworzy niestandardowych tabel ani nie wysyła e-maili; opłaty są naliczane w czasie działania przez własne API opłat koszyka WooCommerce.
 
