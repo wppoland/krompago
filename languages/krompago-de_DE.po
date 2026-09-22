@@ -147,7 +147,7 @@ msgstr "Betrag"
 
 #: src/Admin/Settings.php:209
 msgid "Charged in your store currency, e.g. 3.50."
-msgstr "Wird in der Währung Ihres Geschäfts abgerechnet, z. B. 3,50."
+msgstr "Wird in der Währung Ihres Geschäfts abgerechnet, z. B. 3,50."
 
 #: src/Admin/Settings.php:210
 msgid "A percentage from 0 to 100, e.g. 2.5 adds 2.5% of the subtotal."
