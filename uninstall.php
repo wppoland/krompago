@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Surcharge uninstall routine.
+ * Krompago uninstall routine.
  *
  * Removes plugin options when the user deletes the plugin from the WordPress
  * admin. The plugin stores no custom tables.

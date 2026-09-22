@@ -7,31 +7,31 @@ msgstr ""
 "POT-Creation-Date: 2026-06-18T14:25:09+00:00\n"
 "PO-Revision-Date: 2026-06-18T14:25:09+00:00\n"
 "Last-Translator: motylanogha <szatkowski.mariusz@gmail.com>\n"
-"Language-Team: Spanish <es@li.org>\n"
-"Language: es_ES\n"
+"Language-Team: German <de@li.org>\n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Domain: plogins-surcharge\n"
+"X-Domain: krompago\n"
 "X-Generator: WP-CLI 2.12.0\n"
 
 #. Plugin Name of the plugin
 #: surcharge.php
 msgid "Surcharge - Checkout Fees for WooCommerce"
-msgstr "Recargo: tarifas de pago para WooCommerce"
+msgstr "Zuschlag, Checkout-Gebühren für WooCommerce"
 
 #. Plugin URI of the plugin
 #: surcharge.php
 msgid "https://plogins.com/surcharge/"
-msgstr "https://plogins.com/es/surcharge/"
+msgstr "https://plogins.com/de/surcharge/"
 
 #. Description of the plugin
 #: surcharge.php
 msgid "Add fixed or percentage fees to the WooCommerce cart and checkout."
 msgstr ""
-"Añade tarifas fijas o porcentuales al carrito y al pago (checkout) de "
-"WooCommerce."
+"Füge dem WooCommerce-Warenkorb und der Kasse feste oder prozentuale Gebühren "
+"hinzu."
 
 #. Author of the plugin
 #: surcharge.php
@@ -45,205 +45,208 @@ msgstr "https://wppoland.com"
 
 #: src/Admin/Settings.php:62 src/Admin/Settings.php:63
 msgid "Surcharge"
-msgstr "Recargo"
+msgstr "Zuschlag"
 
 #: src/Admin/Settings.php:101
 msgid "Active"
-msgstr "Activo"
+msgstr "Aktiv"
 
 #: src/Admin/Settings.php:103
 msgid "Disabled"
-msgstr "Desactivado"
+msgstr "Deaktiviert"
 
 #: src/Admin/Settings.php:110
 msgid "Add checkout fees in two steps"
-msgstr "Añade tarifas de pago en dos pasos"
+msgstr "Füge Checkout-Gebühren in zwei Schritten hinzu"
 
 #: src/Admin/Settings.php:111
 msgid ""
 "1. Add a fee row below. 2. Choose a fixed amount or a percentage of the "
 "cart. Fees appear in the cart, at checkout and on the order."
 msgstr ""
-"1. Añade una fila de tarifas a continuación. 2. Elige una cantidad fija o un "
-"porcentaje del carrito. Las tarifas aparecen en el carrito, al finalizar la "
-"compra y en el pedido."
+"1. Füge unten eine Gebührenzeile hinzu. 2. Wähle einen festen Betrag oder "
+"einen Prozentsatz des Warenkorbs. Die Gebühren erscheinen im Warenkorb, an "
+"der Kasse und bei der Bestellung."
 
 #: src/Admin/Settings.php:119
 msgid "General"
-msgstr "General"
+msgstr "Allgemein"
 
 #: src/Admin/Settings.php:124
 msgid "Enable fees"
-msgstr "Habilitar tarifas"
+msgstr "Gebühren aktivieren"
 
 #: src/Admin/Settings.php:129
 msgid "Apply the fees below at cart and checkout."
-msgstr "Aplique las siguientes tarifas en el carrito y en el momento del pago."
+msgstr ""
+"Wende die unten aufgeführten Gebühren im Warenkorb und an der Kasse an."
 
 #: src/Admin/Settings.php:131
 msgid ""
 "Master switch. When off, no fees are added to any cart, regardless of the "
 "rows below."
 msgstr ""
-"Interruptor maestro. Cuando está desactivado, no se agregan tarifas a ningún "
-"carrito, independientemente de las filas a continuación."
+"Hauptschalter. Wenn diese Option deaktiviert ist, werden keinem Warenkorb "
+"Gebühren hinzugefügt, unabhängig von den Zeilen unten."
 
 #: src/Admin/Settings.php:140
 msgid "Fees"
-msgstr "Tarifas"
+msgstr "Gebühren"
 
 #: src/Admin/Settings.php:141
 msgid "Each row is one fee. A fee with no label is skipped."
-msgstr "Cada fila es una tarifa. Se omite una tarifa sin etiqueta."
+msgstr "Jede Zeile ist eine Gebühr. Eine Gebühr ohne Label wird übersprungen."
 
 #: src/Admin/Settings.php:145 src/Admin/Settings.php:159
 msgid "Add fee"
-msgstr "Añadir tarifa"
+msgstr "Gebühr hinzufügen"
 
 #: src/Admin/Settings.php:187
 msgid "Fee"
-msgstr "Tarifa"
+msgstr "Gebühr"
 
 #: src/Admin/Settings.php:191
 msgid "Label"
-msgstr "Etiqueta"
+msgstr "Bezeichnung"
 
 #: src/Admin/Settings.php:192
 msgid "e.g. Handling fee"
-msgstr "p.ej. Tarifa de manejo"
+msgstr "z.B. Bearbeitungsgebühr"
 
 #: src/Admin/Settings.php:193
 msgid ""
 "The wording customers see on the cart, checkout and order. Leave blank to "
 "skip this row."
 msgstr ""
-"El texto que los clientes ven en el carrito, en el pago y en el pedido. "
-"Déjelo en blanco para omitir esta fila."
+"Der Wortlaut, den Kunden im Warenkorb, an der Kasse und bei der Bestellung "
+"sehen. Lass das Feld leer, um diese Zeile zu überspringen."
 
 #: src/Admin/Settings.php:197
 msgid "Type"
-msgstr "Tipo"
+msgstr "Typ"
 
 #: src/Admin/Settings.php:199
 msgid "Fixed amount"
-msgstr "Cantidad fija"
+msgstr "Fester Betrag"
 
 #: src/Admin/Settings.php:200
 msgid "Percentage of cart"
-msgstr "Porcentaje del carrito"
+msgstr "Prozentsatz des Warenkorbs"
 
 #: src/Admin/Settings.php:202
 msgid ""
 "Fixed adds the same amount every order. Percentage scales with the cart "
 "subtotal."
 msgstr ""
-"Fijo añade la misma cantidad en cada pedido. El porcentaje escala con el "
-"subtotal del carrito."
+"Bei Fix wird bei jeder Bestellung der gleiche Betrag hinzugefügt. Der "
+"Prozentsatz skaliert mit der Zwischensumme des Warenkorbs."
 
 #: src/Admin/Settings.php:206
 msgid "Amount"
-msgstr "Cantidad"
+msgstr "Betrag"
 
 #: src/Admin/Settings.php:209
 msgid "Charged in your store currency, e.g. 3.50."
-msgstr "Se cobra en la moneda de su tienda, p. 3,50."
+msgstr "Wird in der Währung Ihres Geschäfts abgerechnet, z. B. 3,50."
 
 #: src/Admin/Settings.php:210
 msgid "A percentage from 0 to 100, e.g. 2.5 adds 2.5% of the subtotal."
-msgstr "Un porcentaje de 0 a 100, p.e. 2,5 suma el 2,5% del subtotal."
+msgstr ""
+"Ein Prozentsatz von 0 bis 100, z.B. 2,5 fügt 2,5 % der Zwischensumme hinzu."
 
 #: src/Admin/Settings.php:223
 msgid "Receipt line"
-msgstr "linea de recibo"
+msgstr "Empfangszeile"
 
 #: src/Admin/Settings.php:230
 msgid "Taxable"
-msgstr "sujeto a impuestos"
+msgstr "Steuerpflichtig"
 
 #: src/Admin/Settings.php:232
 msgid ""
 "On: tax is calculated on this fee using your standard rate. Off: the fee is "
 "added tax-free."
 msgstr ""
-"Activado: el impuesto se calcula sobre esta tarifa utilizando tu tipo "
-"estándar. Desactivado: la tarifa se añade sin impuestos."
+"Ein: Die Steuer wird auf diese Gebühr anhand Ihres Standardsatzes berechnet. "
+"Aus: Die Gebühr wird steuerfrei hinzugerechnet."
 
 #: src/Admin/Settings.php:239
 msgid "Enabled"
-msgstr "Habilitado"
+msgstr "Ermöglicht"
 
 #: src/Admin/Settings.php:240
 msgid "Off keeps the row saved but stops charging it."
-msgstr "Con «Desactivado», la fila se guarda pero deja de cobrarse."
+msgstr ""
+"Bei „Aus“ bleibt die Zeile gespeichert, wird aber nicht mehr berechnet."
 
 #: src/Admin/Settings.php:242
 msgid "Remove fee"
-msgstr "Eliminar tarifa"
+msgstr "Gebühr entfernen"
 
 #: surcharge.php:47
 msgid ""
 "Plogins Surcharge - Checkout Fees for WooCommerce requires WooCommerce to be "
 "active."
 msgstr ""
-"Plogins Surcharge - Checkout Fees for WooCommerce requiere que WooCommerce "
-"esté activo."
+"Plogins Surcharge - Checkout Fees for WooCommerce erfordert, dass WooCommerce "
+"aktiv ist."
 
 #: src/Admin/ProUpsell.php:79
 msgid "Wkrótce"
-msgstr "Próximamente"
+msgstr "Demnächst"
 
 #: src/Admin/ProUpsell.php:79
 msgid "Coming soon"
-msgstr "Próximamente"
+msgstr "Demnächst"
 
 #. translators: %d: yearly price in PLN
 #: src/Admin/ProUpsell.php:84
 #, php-format
 msgid "od %d zł/rok"
-msgstr "desde %d zł/año"
+msgstr "ab %d zł/Jahr"
 
 #. translators: 1: currency symbol, 2: yearly price
 #: src/Admin/ProUpsell.php:89
 #, php-format
 msgid "from %1$s%2$d/yr"
-msgstr "desde %1$s%2$d/año"
+msgstr "ab %1$s%2$d/Jahr"
 
 #: src/Admin/ProUpsell.php:98
 msgid "Upgrade to PRO"
-msgstr "Mejora a PRO"
+msgstr "Auf PRO upgraden"
 
 #: src/Admin/ProUpsell.php:99
 msgid "Powiadom mnie"
-msgstr "Avísame"
+msgstr "Benachrichtige mich"
 
 #: src/Admin/ProUpsell.php:99
 msgid "Get notified"
-msgstr "Avísame"
+msgstr "Benachrichtige mich"
 
 #: src/Admin/ProUpsell.php:129
 msgid "Permission denied."
-msgstr "Permiso denegado."
+msgstr "Zugriff verweigert."
 
 #. translators: %s: PRO edition name
 #: src/Admin/ProUpsell.php:159
 #, php-format
 msgid "Do more with %s"
-msgstr "Haz más con %s"
+msgstr "Mehr erreichen mit %s"
 
 #: src/Admin/ProUpsell.php:166
 msgid "Dismiss this notice"
-msgstr "Descartar este aviso"
+msgstr "Diesen Hinweis ausblenden"
 
 #: src/Admin/ProUpsell.php:183
 msgid "Unlock every PRO feature"
-msgstr "Desbloquea todas las funciones PRO"
+msgstr "Alle PRO-Funktionen freischalten"
 
 #: src/Admin/ProUpsell.php:196
 msgid "one licence, every PRO feature"
-msgstr "una licencia, todas las funciones PRO"
+msgstr "eine Lizenz, alle PRO-Funktionen"
 
 #. translators: %s: PRO edition name
 #: src/Admin/ProUpsell.php:215
 #, php-format
 msgid "What %s adds"
-msgstr "Lo que añade %s"
+msgstr "Was %s ergänzt"

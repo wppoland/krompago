@@ -10,7 +10,7 @@
 defined('ABSPATH') || exit;
 
 return [
-    'name'       => 'Surcharge Pro',
+    'name'       => 'Krompago Pro',
     'url'        => 'https://plogins.com/plogins-surcharge-pro/pricing/',
     'sellable'   => true,
     'price_from' => 29,

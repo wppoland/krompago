@@ -1,10 +1,10 @@
-=== Plogins Surcharge - Checkout Fees for WooCommerce ===
+=== Krompago - Checkout Fees for WooCommerce ===
 Contributors: motylanogha
 Tags: woocommerce, checkout, fees, surcharge, payment fee
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.0.11
+Stable tag: 1.1.0
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -13,7 +13,7 @@ Add fixed or percentage fees to the WooCommerce cart and checkout.
 
 == Description ==
 
-Surcharge lets you add one or more fees to the WooCommerce cart and checkout. Each fee is either a fixed amount or a percentage of the cart subtotal.
+Krompago lets you add one or more fees to the WooCommerce cart and checkout. Each fee is either a fixed amount or a percentage of the cart subtotal.
 
 Fees are added through the WooCommerce fees API, so they appear in the cart totals, on the checkout page, and on the saved order, the same way shipping or tax does. The cart and checkout blocks and HPOS are both supported.
 
@@ -38,7 +38,7 @@ The code lives at [github.com/wppoland/plogins-surcharge](https://github.com/wpp
 
 == Installation ==
 
-1. Upload the plugin to `/wp-content/plugins/plogins-surcharge`, or install via Plugins > Add New.
+1. Upload the plugin to `/wp-content/plugins/krompago`, or install via Plugins > Add New.
 2. Activate it. WooCommerce must be active.
 3. Go to WooCommerce > Surcharge and add your first fee.
 
@@ -46,7 +46,7 @@ The code lives at [github.com/wppoland/plogins-surcharge](https://github.com/wpp
 
 = Does it require WooCommerce? =
 
-Yes. Surcharge extends the WooCommerce cart and checkout and does nothing without it.
+Yes. Krompago extends the WooCommerce cart and checkout and does nothing without it.
 
 = How is a percentage fee calculated? =
 
@@ -76,15 +76,18 @@ Yes. This plugin is compatible with WordPress Multisite. Network activate it or 
 3. On a mobile device.
 == External Services ==
 
-Surcharge does not connect to any external service. It calls no remote APIs, loads no third-party scripts, fonts, or trackers, and sends nothing off your site. Its only stylesheet and script are served from the plugin folder and loaded just on the WooCommerce > Surcharge admin screen.
+Krompago does not connect to any external service. It calls no remote APIs, loads no third-party scripts, fonts, or trackers, and sends nothing off your site. Its only stylesheet and script are served from the plugin folder and loaded just on the WooCommerce > Surcharge admin screen.
 
 All data stays in your own database: your fee rows and the master switch are kept in the `surcharge_settings` option, and a schema marker in `surcharge_db_version`. Both options are removed when you delete the plugin. The plugin creates no custom tables and sends no email; fees are applied at runtime through WooCommerce's own cart fees API.
 
 == Translations ==
 
-Plogins Surcharge is fully translatable and ships the `plogins-surcharge.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
+Krompago is fully translatable and ships the `krompago.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
+
+= 1.1.0 =
+* Renamed to Krompago. The WordPress.org review team asks a plugin name to lead with a distinctive, coined identifier rather than a generic descriptive word. Krompago is Esperanto for an extra payment. The text domain follows the name; the stored fee rows, the settings and every hook are unchanged.
 
 = 1.0.11 =
 * Fixed: the PRO upgrade promo kept selling to people who had already bought the paid edition. Only the banner could be dismissed, so the sidebar promo and the locked feature cards followed a paying customer around for good. The promo now checks whether the paid edition is active and steps aside when it is.

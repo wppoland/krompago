@@ -52,7 +52,7 @@ final class Plugin
 
         /**
          * Fires after Surcharge has fully booted and all services are
-         * registered. Add-ons (e.g. Surcharge Pro) hook this to reuse the
+         * registered. Add-ons (e.g. Krompago Pro) hook this to reuse the
          * FREE plugin's container and register their own services.
          *
          * @param Plugin $plugin The booted plugin instance.
