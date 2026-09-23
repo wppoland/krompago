@@ -78,7 +78,7 @@ msgstr "Habilitar tarifas"
 
 #: src/Admin/Settings.php:129
 msgid "Apply the fees below at cart and checkout."
-msgstr "Aplique las siguientes tarifas en el carrito y en el momento del pago."
+msgstr "Aplica las siguientes tarifas en el carrito y en el momento del pago."
 
 #: src/Admin/Settings.php:131
 msgid ""
@@ -118,7 +118,7 @@ msgid ""
 "skip this row."
 msgstr ""
 "El texto que los clientes ven en el carrito, en el pago y en el pedido. "
-"Déjelo en blanco para omitir esta fila."
+"Déjalo en blanco para omitir esta fila."
 
 #: src/Admin/Settings.php:197
 msgid "Type"
@@ -146,7 +146,7 @@ msgstr "Cantidad"
 
 #: src/Admin/Settings.php:209
 msgid "Charged in your store currency, e.g. 3.50."
-msgstr "Se cobra en la moneda de su tienda, p. 3,50."
+msgstr "Se cobra en la moneda de tu tienda, p. 3,50."
 
 #: src/Admin/Settings.php:210
 msgid "A percentage from 0 to 100, e.g. 2.5 adds 2.5% of the subtotal."
