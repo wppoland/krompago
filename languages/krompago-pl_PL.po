@@ -20,12 +20,12 @@ msgstr ""
 #. Plugin Name of the plugin
 #: krompago.php
 msgid "Krompago - Checkout Fees for WooCommerce"
-msgstr ""
+msgstr "Surcharge - Opłaty przy kasie dla WooCommerce"
 
 #. Plugin URI of the plugin
 #: krompago.php
 msgid "https://plogins.com/plogins-surcharge/"
-msgstr ""
+msgstr "https://plogins.com/plogins-surcharge/"
 
 #. Description of the plugin
 #: krompago.php
@@ -45,7 +45,7 @@ msgstr "https://wppoland.com"
 
 #: krompago.php:48
 msgid "Krompago requires WooCommerce to be active."
-msgstr ""
+msgstr "Surcharge wymaga aktywnego WooCommerce."
 
 #: src/Admin/ProUpsell.php:86
 msgid "Wkrótce"
@@ -103,7 +103,7 @@ msgstr "Co dodaje %s"
 
 #: src/Admin/Settings.php:70
 msgid "Krompago: checkout fees"
-msgstr ""
+msgstr "Surcharge: opłaty przy kasie"
 
 #: src/Admin/Settings.php:71
 msgid "Surcharge"
