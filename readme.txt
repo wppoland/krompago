@@ -4,7 +4,7 @@ Tags: woocommerce, checkout, fees, surcharge, payment fee
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -85,6 +85,9 @@ All data stays in your own database: your fee rows and the master switch are kep
 Krompago is fully translatable and ships the `krompago.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
+
+= 1.1.1 =
+* The sidebar upgrade promo now follows the same dismissal as the banner. Dismissing the banner used to leave a full-height advert on the settings screen for good, which is not what the WordPress.org guideline on upgrade prompts means by used with moderation.
 
 = 1.1.0 =
 * Renamed to Krompago. The WordPress.org review team asks a plugin name to lead with a distinctive, coined identifier rather than a generic descriptive word. Krompago is Esperanto for an extra payment. The text domain follows the name; the stored fee rows, the settings and every hook are unchanged.
