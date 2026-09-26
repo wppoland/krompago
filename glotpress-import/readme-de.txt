@@ -33,14 +33,14 @@ Der Code liegt unter https://github.com/wppoland/plogins-surcharge, falls du ihn
 * Markiere eine Gebühr als steuerpflichtig, damit WooCommerce sie durch deine normalen Steuerregeln laufen lässt.
 * Schalte mit einem Hauptschalter alle Gebühren auf einmal aus, ohne die von dir eingerichteten Zeilen zu verlieren.
 * Aktiviere oder deaktiviere einzelne Gebühren, sodass du eine Gebühr konfiguriert, aber inaktiv lassen kannst.
-* Verwalte alles über einen einzigen Einstellungsbildschirm unter WooCommerce → Surcharge.
+* Verwalte alles über einen einzigen Einstellungsbildschirm unter WooCommerce > Surcharge.
 * Keine externen Dienste, kein Konto, kein Tracking.
 
 == Installation ==
 
-1. Lade das Plugin nach `/wp-content/plugins/plogins-surcharge` hoch oder installiere es über Plugins → Installieren.
+1. Lade das Plugin nach `/wp-content/plugins/plogins-surcharge` hoch oder installiere es über Plugins > Installieren.
 2. Aktiviere es. WooCommerce muss aktiv sein.
-3. Gehe zu WooCommerce → Surcharge und füge deine erste Gebühr hinzu.
+3. Gehe zu WooCommerce > Surcharge und füge deine erste Gebühr hinzu.
 
 == Frequently Asked Questions ==
 
@@ -76,7 +76,7 @@ Ja. Dieses Plugin ist mit WordPress Multisite kompatibel. Aktiviere es netzwerkw
 3. Auf einem mobilen Gerät.
 == External Services ==
 
-Surcharge stellt keine Verbindung zu einem externen Dienst her. Es ruft keine Remote-APIs auf, lädt keine Skripte, Schriftarten oder Tracker von Drittanbietern und sendet nichts von deiner Website. Sein einziges Stylesheet und Skript werden aus dem Plugin-Ordner ausgeliefert und nur auf dem Adminbildschirm WooCommerce → Surcharge geladen.
+Surcharge stellt keine Verbindung zu einem externen Dienst her. Es ruft keine Remote-APIs auf, lädt keine Skripte, Schriftarten oder Tracker von Drittanbietern und sendet nichts von deiner Website. Sein einziges Stylesheet und Skript werden aus dem Plugin-Ordner ausgeliefert und nur auf dem Adminbildschirm WooCommerce > Surcharge geladen.
 
 Alle Daten bleiben in deiner eigenen Datenbank: deine Gebührenzeilen und der Hauptschalter liegen in der Option `surcharge_settings`, und eine Schemamarkierung in `surcharge_db_version`. Beide Optionen werden entfernt, wenn du das Plugin löschst. Das Plugin erstellt keine benutzerdefinierten Tabellen und sendet keine E-Mails; Gebühren werden zur Laufzeit über WooCommerces eigene Warenkorbgebühren-API angewendet.
 

@@ -45,7 +45,7 @@ final class FeeApplicator implements HasHooks
          * Whether Surcharge fees should apply to the current request.
          *
          * FREE passes true once the master switch is on. Add-ons (e.g.
-         * Surcharge Pro role restrictions) may return false to skip all fees
+         * Krompago Pro role restrictions) may return false to skip all fees
          * for the current customer/context.
          *
          * @param bool $applies Whether the FREE conditions passed.

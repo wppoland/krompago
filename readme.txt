@@ -1,10 +1,10 @@
-=== Surcharge - Checkout Fees for WooCommerce ===
+=== Krompago - Checkout Fees for WooCommerce ===
 Contributors: motylanogha
 Tags: woocommerce, checkout, fees, surcharge, payment fee
 Requires at least: 6.5
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.0.5
+Stable tag: 1.1.1
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -13,18 +13,18 @@ Add fixed or percentage fees to the WooCommerce cart and checkout.
 
 == Description ==
 
-Surcharge lets you add one or more fees to the WooCommerce cart and checkout. Each fee is either a fixed amount or a percentage of the cart subtotal.
+Krompago lets you add one or more fees to the WooCommerce cart and checkout. Each fee is either a fixed amount or a percentage of the cart subtotal.
 
 Fees are added through the WooCommerce fees API, so they appear in the cart totals, on the checkout page, and on the saved order, the same way shipping or tax does. The cart and checkout blocks and HPOS are both supported.
 
-The code lives at https://github.com/wppoland/plogins-surcharge if you want to read it, report a bug, or suggest a fee type.
+The code lives at [github.com/wppoland/plogins-surcharge](https://github.com/wppoland/plogins-surcharge) if you want to read it, report a bug, or suggest a fee type.
 
 = Documentation and links =
 
-* **Documentation** - https://plogins.com/plogins-surcharge/docs/
-* **Plugin page** - https://plogins.com/plogins-surcharge/
-* **Source code** - https://github.com/wppoland/plogins-surcharge
-* **Bug reports and feature requests** - https://github.com/wppoland/plogins-surcharge/issues
+* **Documentation**: [plogins.com/plogins-surcharge/docs/](https://plogins.com/plogins-surcharge/docs/)
+* **Plugin page**: [plogins.com/plogins-surcharge/](https://plogins.com/plogins-surcharge/)
+* **Source code**: [github.com/wppoland/plogins-surcharge](https://github.com/wppoland/plogins-surcharge)
+* **Bug reports and feature requests**: [github.com/wppoland/plogins-surcharge/issues](https://github.com/wppoland/plogins-surcharge/issues)
 
 
 = What it does =
@@ -33,20 +33,20 @@ The code lives at https://github.com/wppoland/plogins-surcharge if you want to r
 * Flag a fee as taxable so WooCommerce runs it through your normal tax rules.
 * Turn every fee off at once with a master switch, without losing the rows you set up.
 * Enable or disable individual fees, so you can keep a fee configured but inactive.
-* Manage it all from one settings screen under WooCommerce → Surcharge.
+* Manage it all from one settings screen under WooCommerce > Surcharge.
 * No external services, no account, no tracking.
 
 == Installation ==
 
-1. Upload the plugin to `/wp-content/plugins/plogins-surcharge`, or install via Plugins → Add New.
+1. Upload the plugin to `/wp-content/plugins/krompago`, or install via Plugins > Add New.
 2. Activate it. WooCommerce must be active.
-3. Go to WooCommerce → Surcharge and add your first fee.
+3. Go to WooCommerce > Surcharge and add your first fee.
 
 == Frequently Asked Questions ==
 
 = Does it require WooCommerce? =
 
-Yes. Surcharge extends the WooCommerce cart and checkout and does nothing without it.
+Yes. Krompago extends the WooCommerce cart and checkout and does nothing without it.
 
 = How is a percentage fee calculated? =
 
@@ -76,15 +76,40 @@ Yes. This plugin is compatible with WordPress Multisite. Network activate it or 
 3. On a mobile device.
 == External Services ==
 
-Surcharge does not connect to any external service. It calls no remote APIs, loads no third-party scripts, fonts, or trackers, and sends nothing off your site. Its only stylesheet and script are served from the plugin folder and loaded just on the WooCommerce → Surcharge admin screen.
+Krompago does not connect to any external service. It calls no remote APIs, loads no third-party scripts, fonts, or trackers, and sends nothing off your site. Its only stylesheet and script are served from the plugin folder and loaded just on the WooCommerce > Surcharge admin screen.
 
 All data stays in your own database: your fee rows and the master switch are kept in the `surcharge_settings` option, and a schema marker in `surcharge_db_version`. Both options are removed when you delete the plugin. The plugin creates no custom tables and sends no email; fees are applied at runtime through WooCommerce's own cart fees API.
 
 == Translations ==
 
-Plogins Surcharge includes Polish, German and Spanish translations for the plugin interface. The text domain is `plogins-surcharge`, so WordPress.org language packs can also override or extend these bundled translations.
+Krompago is fully translatable and ships the `krompago.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
+
+= 1.1.1 =
+* The sidebar upgrade promo now follows the same dismissal as the banner. Dismissing the banner used to leave a full-height advert on the settings screen for good, which is not what the WordPress.org guideline on upgrade prompts means by used with moderation.
+
+= 1.1.0 =
+* Renamed to Krompago. The WordPress.org review team asks a plugin name to lead with a distinctive, coined identifier rather than a generic descriptive word. Krompago is Esperanto for an extra payment. The text domain follows the name; the stored fee rows, the settings and every hook are unchanged.
+
+= 1.0.11 =
+* Fixed: the PRO upgrade promo kept selling to people who had already bought the paid edition. Only the banner could be dismissed, so the sidebar promo and the locked feature cards followed a paying customer around for good. The promo now checks whether the paid edition is active and steps aside when it is.
+* Fixed: arrow glyphs in the admin menu paths, and in the strings handed to translators. An arrow inside a translatable string makes the glyph every translator's problem and changes the layout in any locale that drops it.
+
+= 1.0.10 =
+* Fixed: deleting the plugin left the per-user "dismiss" flag from the PRO notice in the database. Uninstall now removes it for every user, not just the one who dismissed it.
+
+= 1.0.9 =
+* The translation template was regenerated. It still named an older version of the plugin and pointed at source lines that had since moved, which is what translation tools read to show a string in context.
+
+= 1.0.8 =
+* Renamed to Plogins Surcharge - Checkout Fees for WooCommerce so the name leads with the brand rather than a generic word, which is what the WordPress.org plugin review team asks for. The plugin slug is unchanged.
+
+= 1.0.7 =
+* Tested against WordPress 7.1. Verified by activating this build on a clean 7.1 install with WooCommerce 11.1, not by editing the header.
+
+= 1.0.6 =
+* Fixed the PRO promo on the settings screen quoting a price in PLN. PRO is priced and charged in EUR, so an admin on a Polish site was shown a zloty amount and then billed in euro, and the zloty figure was a fixed conversion that drifted from the real charge as the rate moved. The promo now shows the euro price that is actually taken.
 
 = 1.0.4 =
 * Translations: completed Polish, German and Spanish for the PRO upgrade panel.

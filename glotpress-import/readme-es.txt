@@ -33,14 +33,14 @@ El código está en https://github.com/wppoland/plogins-surcharge si quieres lee
 * Marca una tarifa como sujeta a impuestos para que WooCommerce la aplique según tus reglas de impuestos habituales.
 * Desactiva todas las tarifas a la vez con un interruptor maestro, sin perder las filas que configuraste.
 * Activa o desactiva tarifas individuales, para que puedas mantener una tarifa configurada pero inactiva.
-* Gestiona todo desde una única pantalla de ajustes en WooCommerce → Surcharge.
+* Gestiona todo desde una única pantalla de ajustes en WooCommerce > Surcharge.
 * Sin servicios externos, sin cuenta, sin seguimiento.
 
 == Installation ==
 
-1. Sube el plugin a `/wp-content/plugins/plogins-surcharge` o instálalo a través de Plugins → Añadir nuevo.
+1. Sube el plugin a `/wp-content/plugins/plogins-surcharge` o instálalo a través de Plugins > Añadir nuevo.
 2. Actívalo. WooCommerce debe estar activo.
-3. Ve a WooCommerce → Surcharge y añade tu primera tarifa.
+3. Ve a WooCommerce > Surcharge y añade tu primera tarifa.
 
 == Frequently Asked Questions ==
 
@@ -76,7 +76,7 @@ Sí. Este plugin es compatible con WordPress Multisite. Actívalo para toda la r
 3. En un dispositivo móvil.
 == External Services ==
 
-Surcharge no se conecta a ningún servicio externo. No llama a API remotas, no carga scripts, fuentes ni rastreadores de terceros y no envía nada fuera de tu sitio. Su única hoja de estilos y su único script se sirven desde la carpeta del plugin y se cargan solo en la pantalla de administración WooCommerce → Surcharge.
+Surcharge no se conecta a ningún servicio externo. No llama a API remotas, no carga scripts, fuentes ni rastreadores de terceros y no envía nada fuera de tu sitio. Su única hoja de estilos y su único script se sirven desde la carpeta del plugin y se cargan solo en la pantalla de administración WooCommerce > Surcharge.
 
 Todos los datos permanecen en tu propia base de datos: tus filas de tarifas y el interruptor maestro se guardan en la opción `surcharge_settings`, y un marcador de esquema en `surcharge_db_version`. Ambas opciones se eliminan cuando borras el plugin. El plugin no crea tablas personalizadas ni envía correos electrónicos; las tarifas se aplican en tiempo de ejecución a través de la propia API de tarifas de carrito de WooCommerce.
 
