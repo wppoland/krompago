@@ -12,15 +12,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
-"|| n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Domain: krompago\n"
 "X-Generator: WP-CLI 2.12.0\n"
 
 #. Plugin Name of the plugin
 #: krompago.php
 msgid "Krompago - Checkout Fees for WooCommerce"
-msgstr "Surcharge - Opłaty przy kasie dla WooCommerce"
+msgstr "Krompago - Opłaty przy kasie dla WooCommerce"
 
 #. Plugin URI of the plugin
 #: krompago.php
@@ -45,7 +44,7 @@ msgstr "https://wppoland.com"
 
 #: krompago.php:48
 msgid "Krompago requires WooCommerce to be active."
-msgstr "Surcharge wymaga aktywnego WooCommerce."
+msgstr "Krompago wymaga aktywnego WooCommerce."
 
 #: src/Admin/ProUpsell.php:86
 msgid "Wkrótce"
@@ -103,7 +102,7 @@ msgstr "Co dodaje %s"
 
 #: src/Admin/Settings.php:70
 msgid "Krompago: checkout fees"
-msgstr "Surcharge: opłaty przy kasie"
+msgstr "Krompago: opłaty przy kasie"
 
 #: src/Admin/Settings.php:71
 msgid "Surcharge"
@@ -249,8 +248,8 @@ msgstr "Usuń opłatę"
 #~ msgstr "https://plogins.com/surcharge/"
 
 #~ msgid ""
-#~ "Plogins Surcharge - Checkout Fees for WooCommerce requires WooCommerce to "
-#~ "be active."
+#~ "Plogins Surcharge - Checkout Fees for WooCommerce requires WooCommerce to be"
+#~ " active."
 #~ msgstr ""
 #~ "Plogins Surcharge - Checkout Fees for WooCommerce wymaga aktywnej wtyczki "
 #~ "WooCommerce."
