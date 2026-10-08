@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Surcharge - Checkout Fees for WooCommerce 0.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/krompago\n"
-"POT-Creation-Date: 2026-09-23T14:41:28+00:00\n"
+"POT-Creation-Date: 2026-10-05T11:15:20+00:00\n"
 "PO-Revision-Date: 2026-06-15 00:00+0000\n"
 "Last-Translator: motylanogha <szatkowski.mariusz@gmail.com>\n"
 "Language-Team: Polish <pl@li.org>\n"
@@ -47,10 +47,6 @@ msgid "Krompago requires WooCommerce to be active."
 msgstr "Krompago wymaga aktywnego WooCommerce."
 
 #: src/Admin/ProUpsell.php:86
-msgid "Wkrótce"
-msgstr "Wkrótce"
-
-#: src/Admin/ProUpsell.php:86
 msgid "Coming soon"
 msgstr "Wkrótce"
 
@@ -63,10 +59,6 @@ msgstr "od %1$s%2$d/rok"
 #: src/Admin/ProUpsell.php:101
 msgid "Upgrade to PRO"
 msgstr "Przejdź na PRO"
-
-#: src/Admin/ProUpsell.php:102
-msgid "Powiadom mnie"
-msgstr "Powiadom mnie"
 
 #: src/Admin/ProUpsell.php:102
 msgid "Get notified"
@@ -122,8 +114,8 @@ msgstr "Dodaj opłaty przy zamówieniu w dwóch krokach"
 
 #: src/Admin/Settings.php:121
 msgid ""
-"1. Add a fee row below. 2. Choose a fixed amount or a percentage of the "
-"cart. Fees appear in the cart, at checkout and on the order."
+"1. Add a fee row below. 2. Choose a fixed amount or a percentage of the cart."
+" Fees appear in the cart, at checkout and on the order."
 msgstr ""
 "1. Dodaj wiersz opłaty poniżej. 2. Wybierz kwotę stałą lub procent wartości "
 "koszyka. Opłaty pojawiają się w koszyku, przy składaniu zamówienia oraz na "
@@ -241,6 +233,12 @@ msgstr "Opcja „Wył.” zapisuje wiersz, ale przestaje naliczać opłatę."
 msgid "Remove fee"
 msgstr "Usuń opłatę"
 
+#~ msgid "Wkrótce"
+#~ msgstr "Wkrótce"
+
+#~ msgid "Powiadom mnie"
+#~ msgstr "Powiadom mnie"
+
 #~ msgid "Surcharge - Checkout Fees for WooCommerce"
 #~ msgstr "Surcharge - Opłaty przy zamówieniu dla WooCommerce"
 
@@ -248,8 +246,8 @@ msgstr "Usuń opłatę"
 #~ msgstr "https://plogins.com/surcharge/"
 
 #~ msgid ""
-#~ "Plogins Surcharge - Checkout Fees for WooCommerce requires WooCommerce to be"
-#~ " active."
+#~ "Plogins Surcharge - Checkout Fees for WooCommerce requires WooCommerce to be "
+#~ "active."
 #~ msgstr ""
 #~ "Plogins Surcharge - Checkout Fees for WooCommerce wymaga aktywnej wtyczki "
 #~ "WooCommerce."

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Surcharge - Checkout Fees for WooCommerce 0.1.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/krompago\n"
-"POT-Creation-Date: 2026-09-23T14:41:28+00:00\n"
+"POT-Creation-Date: 2026-10-05T11:15:20+00:00\n"
 "PO-Revision-Date: 2026-06-18T14:25:09+00:00\n"
 "Last-Translator: motylanogha <szatkowski.mariusz@gmail.com>\n"
 "Language-Team: German <de@li.org>\n"
@@ -19,12 +19,12 @@ msgstr ""
 #. Plugin Name of the plugin
 #: krompago.php
 msgid "Krompago - Checkout Fees for WooCommerce"
-msgstr ""
+msgstr "Krompago - Checkout-Gebühren für WooCommerce"
 
 #. Plugin URI of the plugin
 #: krompago.php
 msgid "https://plogins.com/plogins-surcharge/"
-msgstr ""
+msgstr "https://plogins.com/plogins-surcharge/"
 
 #. Description of the plugin
 #: krompago.php
@@ -45,11 +45,7 @@ msgstr "https://wppoland.com"
 
 #: krompago.php:48
 msgid "Krompago requires WooCommerce to be active."
-msgstr ""
-
-#: src/Admin/ProUpsell.php:86
-msgid "Wkrótce"
-msgstr "Demnächst"
+msgstr "Krompago setzt ein aktives WooCommerce voraus."
 
 #: src/Admin/ProUpsell.php:86
 msgid "Coming soon"
@@ -64,10 +60,6 @@ msgstr "ab %1$s%2$d/Jahr"
 #: src/Admin/ProUpsell.php:101
 msgid "Upgrade to PRO"
 msgstr "Auf PRO upgraden"
-
-#: src/Admin/ProUpsell.php:102
-msgid "Powiadom mnie"
-msgstr "Benachrichtige mich"
 
 #: src/Admin/ProUpsell.php:102
 msgid "Get notified"
@@ -103,7 +95,7 @@ msgstr "Was %s ergänzt"
 
 #: src/Admin/Settings.php:70
 msgid "Krompago: checkout fees"
-msgstr ""
+msgstr "Krompago: Checkout-Gebühren"
 
 #: src/Admin/Settings.php:71
 msgid "Surcharge"
@@ -123,8 +115,8 @@ msgstr "Füge Checkout-Gebühren in zwei Schritten hinzu"
 
 #: src/Admin/Settings.php:121
 msgid ""
-"1. Add a fee row below. 2. Choose a fixed amount or a percentage of the "
-"cart. Fees appear in the cart, at checkout and on the order."
+"1. Add a fee row below. 2. Choose a fixed amount or a percentage of the cart."
+" Fees appear in the cart, at checkout and on the order."
 msgstr ""
 "1. Füge unten eine Gebührenzeile hinzu. 2. Wähle einen festen Betrag oder "
 "einen Prozentsatz des Warenkorbs. Die Gebühren erscheinen im Warenkorb, an "
@@ -245,6 +237,12 @@ msgstr ""
 msgid "Remove fee"
 msgstr "Gebühr entfernen"
 
+#~ msgid "Wkrótce"
+#~ msgstr "Demnächst"
+
+#~ msgid "Powiadom mnie"
+#~ msgstr "Benachrichtige mich"
+
 #~ msgid "Surcharge - Checkout Fees for WooCommerce"
 #~ msgstr "Zuschlag, Checkout-Gebühren für WooCommerce"
 
@@ -252,11 +250,11 @@ msgstr "Gebühr entfernen"
 #~ msgstr "https://plogins.com/de/surcharge/"
 
 #~ msgid ""
-#~ "Plogins Surcharge - Checkout Fees for WooCommerce requires WooCommerce to "
-#~ "be active."
+#~ "Plogins Surcharge - Checkout Fees for WooCommerce requires WooCommerce to be "
+#~ "active."
 #~ msgstr ""
-#~ "Plogins Surcharge - Checkout Fees for WooCommerce erfordert, dass "
-#~ "WooCommerce aktiv ist."
+#~ "Plogins Surcharge - Checkout Fees for WooCommerce erfordert, dass WooCommerce"
+#~ " aktiv ist."
 
 #, php-format
 #~ msgid "od %d zł/rok"
