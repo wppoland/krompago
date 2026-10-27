@@ -36,6 +36,32 @@ The code lives at [github.com/wppoland/plogins-surcharge](https://github.com/wpp
 * Manage it all from one settings screen under WooCommerce > Surcharge.
 * No external services, no account, no tracking.
 
+== Krompago Pro ==
+
+Krompago Pro is a separate paid plugin that extends Krompago.
+
+Included in Krompago:
+
+* Fixed and percentage fees
+* Multiple fees at once
+* Per-fee enable
+* Custom receipt label
+* Taxable fees
+
+Krompago Pro adds:
+
+* Fee-exempt roles
+* Tiered fees
+* Per-product and per-category fees
+* Schedule windows
+* Per-fee reporting
+
+The free edition is not a trial and its features stay available without a time limit.
+
+* **Krompago Pro** - [plogins.com/plogins-surcharge-pro/](https://plogins.com/plogins-surcharge-pro/)
+* **Compare editions and pricing** - [plogins.com/plogins-surcharge-pro/pricing/](https://plogins.com/plogins-surcharge-pro/pricing/)
+* **PRO documentation** - [plogins.com/plogins-surcharge-pro/docs/](https://plogins.com/plogins-surcharge-pro/docs/)
+
 == Installation ==
 
 1. Upload the plugin to `/wp-content/plugins/krompago`, or install via Plugins > Add New.
