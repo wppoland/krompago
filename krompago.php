@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name:       Krompago - Checkout Fees for WooCommerce
- * Plugin URI:        https://plogins.com/plogins-surcharge/
+ * Plugin URI:        https://plogins.com/krompago/
  * Description:        Add fixed or percentage fees to the WooCommerce cart and checkout.
- * Version:           1.1.2
+ * Version:           1.1.3
  * Requires at least: 6.5
  * Requires PHP:      8.1
  * Requires Plugins:  woocommerce
@@ -25,7 +25,7 @@ namespace Surcharge;
 
 defined('ABSPATH') || exit;
 
-const VERSION     = '1.1.2';
+const VERSION     = '1.1.3';
 const PLUGIN_FILE = __FILE__;
 
 define('SURCHARGE_DIR', plugin_dir_path(__FILE__));

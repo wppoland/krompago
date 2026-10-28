@@ -21,7 +21,7 @@ msgstr ""
 
 #. Plugin URI of the plugin
 #: krompago.php
-msgid "https://plogins.com/plogins-surcharge/"
+msgid "https://plogins.com/krompago/"
 msgstr ""
 
 #. Description of the plugin

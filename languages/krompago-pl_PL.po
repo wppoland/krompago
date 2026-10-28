@@ -23,8 +23,8 @@ msgstr "Krompago - Opłaty przy kasie dla WooCommerce"
 
 #. Plugin URI of the plugin
 #: krompago.php
-msgid "https://plogins.com/plogins-surcharge/"
-msgstr "https://plogins.com/plogins-surcharge/"
+msgid "https://plogins.com/krompago/"
+msgstr "https://plogins.com/krompago/"
 
 #. Description of the plugin
 #: krompago.php
