@@ -4,14 +4,14 @@
  * scripts/gen-pro-upsell.mjs. The admin upsell renders this; curate the
  * feature list to fit this plugin's settings screen (do not invent features).
  *
- * @package plogins-surcharge-pro
+ * @package krompago-pro
  */
 
 defined('ABSPATH') || exit;
 
 return [
     'name'       => 'Krompago Pro',
-    'url'        => 'https://plogins.com/plogins-surcharge-pro/pricing/',
+    'url'        => 'https://plogins.com/krompago-pro/pricing/',
     'sellable'   => true,
     'price_from' => 29,
     'currency'   => 'EUR',

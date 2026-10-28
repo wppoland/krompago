@@ -4,7 +4,7 @@ Tags: woocommerce, checkout, fees, surcharge, payment fee
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -17,14 +17,14 @@ Krompago lets you add one or more fees to the WooCommerce cart and checkout. Eac
 
 Fees are added through the WooCommerce fees API, so they appear in the cart totals, on the checkout page, and on the saved order, the same way shipping or tax does. The cart and checkout blocks and HPOS are both supported.
 
-The code lives at [github.com/wppoland/plogins-surcharge](https://github.com/wppoland/plogins-surcharge) if you want to read it, report a bug, or suggest a fee type.
+The code lives at [github.com/wppoland/krompago](https://github.com/wppoland/krompago) if you want to read it, report a bug, or suggest a fee type.
 
 = Documentation and links =
 
-* **Documentation**: [plogins.com/plogins-surcharge/docs/](https://plogins.com/plogins-surcharge/docs/)
-* **Plugin page**: [plogins.com/plogins-surcharge/](https://plogins.com/plogins-surcharge/)
-* **Source code**: [github.com/wppoland/plogins-surcharge](https://github.com/wppoland/plogins-surcharge)
-* **Bug reports and feature requests**: [github.com/wppoland/plogins-surcharge/issues](https://github.com/wppoland/plogins-surcharge/issues)
+* **Documentation**: [plogins.com/krompago/docs/](https://plogins.com/krompago/docs/)
+* **Plugin page**: [plogins.com/krompago/](https://plogins.com/krompago/)
+* **Source code**: [github.com/wppoland/krompago](https://github.com/wppoland/krompago)
+* **Bug reports and feature requests**: [github.com/wppoland/krompago/issues](https://github.com/wppoland/krompago/issues)
 
 
 = What it does =
@@ -58,9 +58,9 @@ Krompago Pro adds:
 
 The free edition is not a trial and its features stay available without a time limit.
 
-* **Krompago Pro** - [plogins.com/plogins-surcharge-pro/](https://plogins.com/plogins-surcharge-pro/)
-* **Compare editions and pricing** - [plogins.com/plogins-surcharge-pro/pricing/](https://plogins.com/plogins-surcharge-pro/pricing/)
-* **PRO documentation** - [plogins.com/plogins-surcharge-pro/docs/](https://plogins.com/plogins-surcharge-pro/docs/)
+* **Krompago Pro** - [plogins.com/krompago-pro/](https://plogins.com/krompago-pro/)
+* **Compare editions and pricing** - [plogins.com/krompago-pro/pricing/](https://plogins.com/krompago-pro/pricing/)
+* **PRO documentation** - [plogins.com/krompago-pro/docs/](https://plogins.com/krompago-pro/docs/)
 
 == Installation ==
 
@@ -111,6 +111,9 @@ All data stays in your own database: your fee rows and the master switch are kep
 Krompago is fully translatable and ships the `krompago.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
+
+= 1.1.3 =
+* Links point at the new plogins.com address and the renamed GitHub repository.
 
 = 1.1.2 =
 * The upgrade notice's "Coming soon" and "Get notified" labels are English source strings for every language; Polish sites used to get their own Polish source text, which translators in other languages then saw untranslated.
