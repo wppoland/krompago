@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Surcharge - Checkout Fees for WooCommerce 0.1.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/krompago\n"
-"POT-Creation-Date: 2026-10-05T11:15:20+00:00\n"
+"POT-Creation-Date: 2026-10-29T13:43:51+00:00\n"
 "PO-Revision-Date: 2026-06-18T14:25:09+00:00\n"
 "Last-Translator: motylanogha <szatkowski.mariusz@gmail.com>\n"
 "Language-Team: German <de@li.org>\n"
@@ -115,8 +115,8 @@ msgstr "Füge Checkout-Gebühren in zwei Schritten hinzu"
 
 #: src/Admin/Settings.php:121
 msgid ""
-"1. Add a fee row below. 2. Choose a fixed amount or a percentage of the cart."
-" Fees appear in the cart, at checkout and on the order."
+"1. Add a fee row below. 2. Choose a fixed amount or a percentage of the "
+"cart. Fees appear in the cart, at checkout and on the order."
 msgstr ""
 "1. Füge unten eine Gebührenzeile hinzu. 2. Wähle einen festen Betrag oder "
 "einen Prozentsatz des Warenkorbs. Die Gebühren erscheinen im Warenkorb, an "
@@ -155,19 +155,39 @@ msgstr "Jede Zeile ist eine Gebühr. Eine Gebühr ohne Label wird übersprungen.
 msgid "Add fee"
 msgstr "Gebühr hinzufügen"
 
-#: src/Admin/Settings.php:199
+#: src/Admin/Settings.php:178
+msgid "Ecosystem integrations"
+msgstr ""
+
+#: src/Admin/Settings.php:183
+msgid "Dankon (Tips and Gratuity)"
+msgstr ""
+
+#: src/Admin/Settings.php:187
+msgid ""
+"Dankon is active. Its tip and your fees are added as separate cart fees, and "
+"percentage fees are worked out on the cart subtotal, not on the tip."
+msgstr ""
+
+#. translators: %s: partner plugin name, linked to its search on the Add Plugins screen.
+#: src/Admin/Settings.php:194
+#, php-format
+msgid "Install %s to let customers add a tip at checkout."
+msgstr ""
+
+#: src/Admin/Settings.php:229
 msgid "Fee"
 msgstr "Gebühr"
 
-#: src/Admin/Settings.php:203
+#: src/Admin/Settings.php:233
 msgid "Label"
 msgstr "Bezeichnung"
 
-#: src/Admin/Settings.php:204
+#: src/Admin/Settings.php:234
 msgid "e.g. Handling fee"
 msgstr "z.B. Bearbeitungsgebühr"
 
-#: src/Admin/Settings.php:205
+#: src/Admin/Settings.php:235
 msgid ""
 "The wording customers see on the cart, checkout and order. Leave blank to "
 "skip this row."
@@ -175,19 +195,19 @@ msgstr ""
 "Der Wortlaut, den Kunden im Warenkorb, an der Kasse und bei der Bestellung "
 "sehen. Lass das Feld leer, um diese Zeile zu überspringen."
 
-#: src/Admin/Settings.php:209
+#: src/Admin/Settings.php:239
 msgid "Type"
 msgstr "Typ"
 
-#: src/Admin/Settings.php:211
+#: src/Admin/Settings.php:241
 msgid "Fixed amount"
 msgstr "Fester Betrag"
 
-#: src/Admin/Settings.php:212
+#: src/Admin/Settings.php:242
 msgid "Percentage of cart"
 msgstr "Prozentsatz des Warenkorbs"
 
-#: src/Admin/Settings.php:214
+#: src/Admin/Settings.php:244
 msgid ""
 "Fixed adds the same amount every order. Percentage scales with the cart "
 "subtotal."
@@ -195,28 +215,28 @@ msgstr ""
 "Bei Fix wird bei jeder Bestellung der gleiche Betrag hinzugefügt. Der "
 "Prozentsatz skaliert mit der Zwischensumme des Warenkorbs."
 
-#: src/Admin/Settings.php:218
+#: src/Admin/Settings.php:248
 msgid "Amount"
 msgstr "Betrag"
 
-#: src/Admin/Settings.php:221
+#: src/Admin/Settings.php:251
 msgid "Charged in your store currency, e.g. 3.50."
 msgstr "Wird in der Währung Ihres Geschäfts abgerechnet, z. B. 3,50."
 
-#: src/Admin/Settings.php:222
+#: src/Admin/Settings.php:252
 msgid "A percentage from 0 to 100, e.g. 2.5 adds 2.5% of the subtotal."
 msgstr ""
 "Ein Prozentsatz von 0 bis 100, z.B. 2,5 fügt 2,5 % der Zwischensumme hinzu."
 
-#: src/Admin/Settings.php:235
+#: src/Admin/Settings.php:265
 msgid "Receipt line"
 msgstr "Empfangszeile"
 
-#: src/Admin/Settings.php:242
+#: src/Admin/Settings.php:272
 msgid "Taxable"
 msgstr "Steuerpflichtig"
 
-#: src/Admin/Settings.php:244
+#: src/Admin/Settings.php:274
 msgid ""
 "On: tax is calculated on this fee using your standard rate. Off: the fee is "
 "added tax-free."
@@ -224,16 +244,16 @@ msgstr ""
 "Ein: Die Steuer wird auf diese Gebühr anhand Ihres Standardsatzes berechnet. "
 "Aus: Die Gebühr wird steuerfrei hinzugerechnet."
 
-#: src/Admin/Settings.php:251
+#: src/Admin/Settings.php:281
 msgid "Enabled"
 msgstr "Ermöglicht"
 
-#: src/Admin/Settings.php:252
+#: src/Admin/Settings.php:282
 msgid "Off keeps the row saved but stops charging it."
 msgstr ""
 "Bei „Aus“ bleibt die Zeile gespeichert, wird aber nicht mehr berechnet."
 
-#: src/Admin/Settings.php:254
+#: src/Admin/Settings.php:284
 msgid "Remove fee"
 msgstr "Gebühr entfernen"
 
@@ -250,11 +270,11 @@ msgstr "Gebühr entfernen"
 #~ msgstr "https://plogins.com/de/surcharge/"
 
 #~ msgid ""
-#~ "Plogins Surcharge - Checkout Fees for WooCommerce requires WooCommerce to be "
-#~ "active."
+#~ "Plogins Surcharge - Checkout Fees for WooCommerce requires WooCommerce to "
+#~ "be active."
 #~ msgstr ""
-#~ "Plogins Surcharge - Checkout Fees for WooCommerce erfordert, dass WooCommerce"
-#~ " aktiv ist."
+#~ "Plogins Surcharge - Checkout Fees for WooCommerce erfordert, dass "
+#~ "WooCommerce aktiv ist."
 
 #, php-format
 #~ msgid "od %d zł/rok"
