@@ -173,6 +173,30 @@ final class Settings implements HasHooks
                     <?php $this->renderRowTemplate($option); ?>
                 </div>
 
+                <div class="surcharge-admin__card">
+                    <div class="surcharge-admin__card-head">
+                        <h2><?php esc_html_e('Ecosystem integrations', 'krompago'); ?></h2>
+                    </div>
+                    <table class="form-table" role="presentation">
+                        <tbody>
+                            <tr>
+                                <th scope="row"><?php esc_html_e('Tipping (Checkout Tips)', 'krompago'); ?></th>
+                                <td>
+                                    <?php if (class_exists('\Tipping\Plugin')) : ?>
+                                        <p class="description" style="color:#007017;font-weight:600;">
+                                            <?php esc_html_e('Tipping is active. Payment surcharges and checkout tips work seamlessly side-by-side in WooCommerce cart and checkout totals.', 'krompago'); ?>
+                                        </p>
+                                    <?php else : ?>
+                                        <p class="description">
+                                            <?php esc_html_e('Install Tipping (Checkout Tipping for WooCommerce) to let customers add gratuities for your staff during checkout.', 'krompago'); ?>
+                                        </p>
+                                    <?php endif; ?>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
                 <?php submit_button(); ?>
             </form>
 
