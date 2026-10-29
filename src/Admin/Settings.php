@@ -188,7 +188,13 @@ final class Settings implements HasHooks
                                         </p>
                                     <?php else : ?>
                                         <p class="description">
-                                            <?php esc_html_e('Install Dankon - Tips and Gratuity for WooCommerce to let customers add a tip at checkout.', 'krompago'); ?>
+                                            <?php
+                                            printf(
+                                                /* translators: %s: partner plugin name, linked to its search on the Add Plugins screen. */
+                                                esc_html__('Install %s to let customers add a tip at checkout.', 'krompago'),
+                                                '<a href="' . esc_url(admin_url('plugin-install.php?s=' . rawurlencode('Dankon - Tips and Gratuity for WooCommerce') . '&tab=search&type=term')) . '">' . esc_html('Dankon - Tips and Gratuity for WooCommerce') . '</a>'
+                                            );
+                                            ?>
                                         </p>
                                     <?php endif; ?>
                                 </td>
