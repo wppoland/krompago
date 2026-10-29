@@ -173,6 +173,30 @@ final class Settings implements HasHooks
                     <?php $this->renderRowTemplate($option); ?>
                 </div>
 
+                <div class="surcharge-admin__card">
+                    <div class="surcharge-admin__card-head">
+                        <h2><?php esc_html_e('Ecosystem integrations', 'krompago'); ?></h2>
+                    </div>
+                    <table class="form-table" role="presentation">
+                        <tbody>
+                            <tr>
+                                <th scope="row"><?php esc_html_e('Dankon (Tips and Gratuity)', 'krompago'); ?></th>
+                                <td>
+                                    <?php if (class_exists('\Tipping\Plugin')) : ?>
+                                        <p class="description" style="color:#007017;font-weight:600;">
+                                            <?php esc_html_e('Dankon is active. Its tip and your fees are added as separate cart fees, and percentage fees are worked out on the cart subtotal, not on the tip.', 'krompago'); ?>
+                                        </p>
+                                    <?php else : ?>
+                                        <p class="description">
+                                            <?php esc_html_e('Install Dankon - Tips and Gratuity for WooCommerce to let customers add a tip at checkout.', 'krompago'); ?>
+                                        </p>
+                                    <?php endif; ?>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
                 <?php submit_button(); ?>
             </form>
 
