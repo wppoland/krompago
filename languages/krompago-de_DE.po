@@ -30,8 +30,8 @@ msgstr "https://plogins.com/krompago/"
 #: krompago.php
 msgid "Add fixed or percentage fees to the WooCommerce cart and checkout."
 msgstr ""
-"Füge dem WooCommerce-Warenkorb und der Kasse feste oder prozentuale Gebühren "
-"hinzu."
+"Füge dem WooCommerce-Warenkorb und der Kasse feste oder prozentuale Gebühren"
+" hinzu."
 
 #. Author of the plugin
 #: krompago.php
@@ -157,23 +157,29 @@ msgstr "Gebühr hinzufügen"
 
 #: src/Admin/Settings.php:178
 msgid "Ecosystem integrations"
-msgstr ""
+msgstr "Integrationen mit anderen Plugins"
 
 #: src/Admin/Settings.php:183
 msgid "Dankon (Tips and Gratuity)"
-msgstr ""
+msgstr "Dankon (Trinkgeld)"
 
 #: src/Admin/Settings.php:187
 msgid ""
-"Dankon is active. Its tip and your fees are added as separate cart fees, and "
-"percentage fees are worked out on the cart subtotal, not on the tip."
+"Dankon is active. Its tip and your fees are added as separate cart fees, and"
+" percentage fees are worked out on the cart subtotal, not on the tip."
 msgstr ""
+"Dankon ist aktiv. Das Trinkgeld und Ihre Gebühren werden als separate "
+"Warenkorbgebühren hinzugefügt, und prozentuale Gebühren werden aus der "
+"Zwischensumme des Warenkorbs berechnet, nicht aus dem Trinkgeld."
 
-#. translators: %s: partner plugin name, linked to its search on the Add Plugins screen.
+#. translators: %s: partner plugin name, linked to its search on the Add
+#. Plugins screen.
 #: src/Admin/Settings.php:194
 #, php-format
 msgid "Install %s to let customers add a tip at checkout."
 msgstr ""
+"Installieren Sie %s, damit Kunden an der Kasse ein Trinkgeld hinzufügen "
+"können."
 
 #: src/Admin/Settings.php:229
 msgid "Fee"
@@ -241,8 +247,8 @@ msgid ""
 "On: tax is calculated on this fee using your standard rate. Off: the fee is "
 "added tax-free."
 msgstr ""
-"Ein: Die Steuer wird auf diese Gebühr anhand Ihres Standardsatzes berechnet. "
-"Aus: Die Gebühr wird steuerfrei hinzugerechnet."
+"Ein: Die Steuer wird auf diese Gebühr anhand Ihres Standardsatzes berechnet."
+" Aus: Die Gebühr wird steuerfrei hinzugerechnet."
 
 #: src/Admin/Settings.php:281
 msgid "Enabled"
@@ -270,8 +276,8 @@ msgstr "Gebühr entfernen"
 #~ msgstr "https://plogins.com/de/surcharge/"
 
 #~ msgid ""
-#~ "Plogins Surcharge - Checkout Fees for WooCommerce requires WooCommerce to "
-#~ "be active."
+#~ "Plogins Surcharge - Checkout Fees for WooCommerce requires WooCommerce to be"
+#~ " active."
 #~ msgstr ""
 #~ "Plogins Surcharge - Checkout Fees for WooCommerce erfordert, dass "
 #~ "WooCommerce aktiv ist."

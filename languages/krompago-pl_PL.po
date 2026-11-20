@@ -12,8 +12,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
-"|| n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Domain: krompago\n"
 "X-Generator: WP-CLI 2.12.0\n"
 
@@ -156,23 +155,27 @@ msgstr "Dodaj opłatę"
 
 #: src/Admin/Settings.php:178
 msgid "Ecosystem integrations"
-msgstr ""
+msgstr "Integracje z innymi wtyczkami"
 
 #: src/Admin/Settings.php:183
 msgid "Dankon (Tips and Gratuity)"
-msgstr ""
+msgstr "Dankon (napiwki)"
 
 #: src/Admin/Settings.php:187
 msgid ""
-"Dankon is active. Its tip and your fees are added as separate cart fees, and "
-"percentage fees are worked out on the cart subtotal, not on the tip."
+"Dankon is active. Its tip and your fees are added as separate cart fees, and"
+" percentage fees are worked out on the cart subtotal, not on the tip."
 msgstr ""
+"Dankon jest aktywny. Napiwek i twoje opłaty są dodawane do koszyka jako "
+"osobne opłaty, a opłaty procentowe liczone są od sumy częściowej koszyka, "
+"nie od napiwku."
 
-#. translators: %s: partner plugin name, linked to its search on the Add Plugins screen.
+#. translators: %s: partner plugin name, linked to its search on the Add
+#. Plugins screen.
 #: src/Admin/Settings.php:194
 #, php-format
 msgid "Install %s to let customers add a tip at checkout."
-msgstr ""
+msgstr "Zainstaluj %s, aby klienci mogli dodać napiwek przy zamówieniu."
 
 #: src/Admin/Settings.php:229
 msgid "Fee"
@@ -267,8 +270,8 @@ msgstr "Usuń opłatę"
 #~ msgstr "https://plogins.com/surcharge/"
 
 #~ msgid ""
-#~ "Plogins Surcharge - Checkout Fees for WooCommerce requires WooCommerce to "
-#~ "be active."
+#~ "Plogins Surcharge - Checkout Fees for WooCommerce requires WooCommerce to be"
+#~ " active."
 #~ msgstr ""
 #~ "Plogins Surcharge - Checkout Fees for WooCommerce wymaga aktywnej wtyczki "
 #~ "WooCommerce."
