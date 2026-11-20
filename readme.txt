@@ -97,9 +97,9 @@ Yes. This plugin is compatible with WordPress Multisite. Network activate it or 
 
 == Screenshots ==
 
-1. On the storefront.
-2. Settings in the WordPress admin.
-3. On a mobile device.
+1. A checkout fee line in the cart totals.
+2. Settings under WooCommerce > Surcharge: fee label, type and amount.
+3. The fee in the cart on a phone.
 == External Services ==
 
 Krompago does not connect to any external service. It calls no remote APIs, loads no third-party scripts, fonts, or trackers, and sends nothing off your site. Its only stylesheet and script are served from the plugin folder and loaded just on the WooCommerce > Surcharge admin screen.
