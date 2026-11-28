@@ -4,7 +4,7 @@ Tags: woocommerce, checkout, fees, surcharge, payment fee
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.1.9
+Stable tag: 1.1.10
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -111,6 +111,9 @@ All data stays in your own database: your fee rows and the master switch are kep
 Krompago is fully translatable and ships the `krompago.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
+
+= 1.1.10 =
+* Translations: German, Spanish and Polish catalogues now carry the two updated fee help strings.
 
 = 1.1.9 =
 * Fee settings: the percentage help now says the base is the product subtotal including product tax, which is what the fee has always used.
