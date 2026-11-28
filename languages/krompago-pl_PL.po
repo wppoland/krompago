@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Surcharge - Checkout Fees for WooCommerce 0.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/krompago\n"
-"POT-Creation-Date: 2026-10-29T13:43:51+00:00\n"
+"POT-Creation-Date: 2026-11-28T10:49:51+00:00\n"
 "PO-Revision-Date: 2026-06-15 00:00+0000\n"
 "Last-Translator: motylanogha <szatkowski.mariusz@gmail.com>\n"
 "Language-Team: Polish <pl@li.org>\n"
@@ -12,7 +12,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
 "X-Domain: krompago\n"
 "X-Generator: WP-CLI 2.12.0\n"
 
@@ -92,27 +93,27 @@ msgstr "jedna licencja, wszystkie funkcje PRO"
 msgid "What %s adds"
 msgstr "Co dodaje %s"
 
-#: src/Admin/Settings.php:70
-msgid "Krompago: checkout fees"
-msgstr "Krompago: opłaty przy kasie"
-
-#: src/Admin/Settings.php:71
+#: src/Admin/Settings.php:51 src/Admin/Settings.php:83
 msgid "Surcharge"
 msgstr "Opłaty"
 
-#: src/Admin/Settings.php:109
+#: src/Admin/Settings.php:82
+msgid "Krompago: checkout fees"
+msgstr "Krompago: opłaty przy kasie"
+
+#: src/Admin/Settings.php:121
 msgid "Active"
 msgstr "Aktywne"
 
-#: src/Admin/Settings.php:111
+#: src/Admin/Settings.php:123
 msgid "Disabled"
 msgstr "Wyłączone"
 
-#: src/Admin/Settings.php:120
+#: src/Admin/Settings.php:132
 msgid "Add checkout fees in two steps"
 msgstr "Dodaj opłaty przy zamówieniu w dwóch krokach"
 
-#: src/Admin/Settings.php:121
+#: src/Admin/Settings.php:133
 msgid ""
 "1. Add a fee row below. 2. Choose a fixed amount or a percentage of the "
 "cart. Fees appear in the cart, at checkout and on the order."
@@ -121,19 +122,19 @@ msgstr ""
 "koszyka. Opłaty pojawiają się w koszyku, przy składaniu zamówienia oraz na "
 "zamówieniu."
 
-#: src/Admin/Settings.php:129
+#: src/Admin/Settings.php:141
 msgid "General"
 msgstr "Ogólne"
 
-#: src/Admin/Settings.php:134
+#: src/Admin/Settings.php:146
 msgid "Enable fees"
 msgstr "Włącz opłaty"
 
-#: src/Admin/Settings.php:139
+#: src/Admin/Settings.php:151
 msgid "Apply the fees below at cart and checkout."
 msgstr "Stosuj poniższe opłaty w koszyku i przy zamówieniu."
 
-#: src/Admin/Settings.php:141
+#: src/Admin/Settings.php:153
 msgid ""
 "Master switch. When off, no fees are added to any cart, regardless of the "
 "rows below."
@@ -141,55 +142,54 @@ msgstr ""
 "Przełącznik główny. Po wyłączeniu żadne opłaty nie są dodawane do koszyka, "
 "niezależnie od poniższych wierszy."
 
-#: src/Admin/Settings.php:150
+#: src/Admin/Settings.php:162
 msgid "Fees"
 msgstr "Opłaty"
 
-#: src/Admin/Settings.php:151
+#: src/Admin/Settings.php:163
 msgid "Each row is one fee. A fee with no label is skipped."
 msgstr "Każdy wiersz to jedna opłata. Opłata bez etykiety jest pomijana."
 
-#: src/Admin/Settings.php:155 src/Admin/Settings.php:169
+#: src/Admin/Settings.php:167 src/Admin/Settings.php:181
 msgid "Add fee"
 msgstr "Dodaj opłatę"
 
-#: src/Admin/Settings.php:178
+#: src/Admin/Settings.php:190
 msgid "Ecosystem integrations"
 msgstr "Integracje z innymi wtyczkami"
 
-#: src/Admin/Settings.php:183
+#: src/Admin/Settings.php:195
 msgid "Dankon (Tips and Gratuity)"
 msgstr "Dankon (napiwki)"
 
-#: src/Admin/Settings.php:187
+#: src/Admin/Settings.php:199
 msgid ""
-"Dankon is active. Its tip and your fees are added as separate cart fees, and"
-" percentage fees are worked out on the cart subtotal, not on the tip."
+"Dankon is active. Its tip and your fees are added as separate cart fees, and "
+"percentage fees are worked out on the cart subtotal, not on the tip."
 msgstr ""
 "Dankon jest aktywny. Napiwek i twoje opłaty są dodawane do koszyka jako "
 "osobne opłaty, a opłaty procentowe liczone są od sumy częściowej koszyka, "
 "nie od napiwku."
 
-#. translators: %s: partner plugin name, linked to its search on the Add
-#. Plugins screen.
-#: src/Admin/Settings.php:194
+#. translators: %s: partner plugin name, linked to its search on the Add Plugins screen.
+#: src/Admin/Settings.php:206
 #, php-format
 msgid "Install %s to let customers add a tip at checkout."
 msgstr "Zainstaluj %s, aby klienci mogli dodać napiwek przy zamówieniu."
 
-#: src/Admin/Settings.php:229
+#: src/Admin/Settings.php:241
 msgid "Fee"
 msgstr "Opłata"
 
-#: src/Admin/Settings.php:233
+#: src/Admin/Settings.php:245
 msgid "Label"
 msgstr "Etykieta"
 
-#: src/Admin/Settings.php:234
+#: src/Admin/Settings.php:246
 msgid "e.g. Handling fee"
 msgstr "np. Opłata manipulacyjna"
 
-#: src/Admin/Settings.php:235
+#: src/Admin/Settings.php:247
 msgid ""
 "The wording customers see on the cart, checkout and order. Leave blank to "
 "skip this row."
@@ -197,47 +197,47 @@ msgstr ""
 "Sformułowanie, które klienci widzą na koszyku, kasie i zamówieniu. Pozostaw "
 "puste, aby pominąć ten wiersz."
 
-#: src/Admin/Settings.php:239
+#: src/Admin/Settings.php:251
 msgid "Type"
 msgstr "Typ"
 
-#: src/Admin/Settings.php:241
+#: src/Admin/Settings.php:253
 msgid "Fixed amount"
 msgstr "Kwota stała"
 
-#: src/Admin/Settings.php:242
+#: src/Admin/Settings.php:254
 msgid "Percentage of cart"
 msgstr "Procent wartości koszyka"
 
-#: src/Admin/Settings.php:244
+#: src/Admin/Settings.php:256
 msgid ""
-"Fixed adds the same amount every order. Percentage scales with the cart "
-"subtotal."
+"Fixed adds the same amount every order. Percentage scales with the product "
+"subtotal including product tax."
 msgstr ""
-"Opcja „Kwota stała” dodaje tę samą kwotę do każdego zamówienia. Wartość "
-"procentowa skaluje się wraz z sumą częściową koszyka."
 
-#: src/Admin/Settings.php:248
+#: src/Admin/Settings.php:260
 msgid "Amount"
 msgstr "Kwota"
 
-#: src/Admin/Settings.php:251
+#: src/Admin/Settings.php:263
 msgid "Charged in your store currency, e.g. 3.50."
 msgstr "Opłata w walucie Twojego sklepu, np. 3,50."
 
-#: src/Admin/Settings.php:252
-msgid "A percentage from 0 to 100, e.g. 2.5 adds 2.5% of the subtotal."
-msgstr "Wartość procentowa od 0 do 100, np. 2,5 dodaje 2,5% sumy częściowej."
+#: src/Admin/Settings.php:264
+msgid ""
+"A percentage from 0 to 100, e.g. 2.5 adds 2.5% of the product subtotal "
+"including product tax."
+msgstr ""
 
-#: src/Admin/Settings.php:265
+#: src/Admin/Settings.php:277
 msgid "Receipt line"
 msgstr "Linia odbioru"
 
-#: src/Admin/Settings.php:272
+#: src/Admin/Settings.php:284
 msgid "Taxable"
 msgstr "Opodatkowana"
 
-#: src/Admin/Settings.php:274
+#: src/Admin/Settings.php:286
 msgid ""
 "On: tax is calculated on this fee using your standard rate. Off: the fee is "
 "added tax-free."
@@ -245,17 +245,28 @@ msgstr ""
 "Wł.: podatek jest obliczany od tej opłaty przy użyciu stawki standardowej. "
 "Off: opłata jest doliczana bez podatku."
 
-#: src/Admin/Settings.php:281
+#: src/Admin/Settings.php:293
 msgid "Enabled"
 msgstr "Włączona"
 
-#: src/Admin/Settings.php:282
+#: src/Admin/Settings.php:294
 msgid "Off keeps the row saved but stops charging it."
 msgstr "Opcja „Wył.” zapisuje wiersz, ale przestaje naliczać opłatę."
 
-#: src/Admin/Settings.php:284
+#: src/Admin/Settings.php:296
 msgid "Remove fee"
 msgstr "Usuń opłatę"
+
+#~ msgid ""
+#~ "Fixed adds the same amount every order. Percentage scales with the cart "
+#~ "subtotal."
+#~ msgstr ""
+#~ "Opcja „Kwota stała” dodaje tę samą kwotę do każdego zamówienia. Wartość "
+#~ "procentowa skaluje się wraz z sumą częściową koszyka."
+
+#~ msgid "A percentage from 0 to 100, e.g. 2.5 adds 2.5% of the subtotal."
+#~ msgstr ""
+#~ "Wartość procentowa od 0 do 100, np. 2,5 dodaje 2,5% sumy częściowej."
 
 #~ msgid "Wkrótce"
 #~ msgstr "Wkrótce"
@@ -270,8 +281,8 @@ msgstr "Usuń opłatę"
 #~ msgstr "https://plogins.com/surcharge/"
 
 #~ msgid ""
-#~ "Plogins Surcharge - Checkout Fees for WooCommerce requires WooCommerce to be"
-#~ " active."
+#~ "Plogins Surcharge - Checkout Fees for WooCommerce requires WooCommerce to "
+#~ "be active."
 #~ msgstr ""
 #~ "Plogins Surcharge - Checkout Fees for WooCommerce wymaga aktywnej wtyczki "
 #~ "WooCommerce."
