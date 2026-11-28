@@ -4,7 +4,7 @@ Tags: woocommerce, checkout, fees, surcharge, payment fee
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 1.1.8
+Stable tag: 1.1.9
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -13,7 +13,7 @@ Add fixed or percentage fees to the WooCommerce cart and checkout.
 
 == Description ==
 
-Krompago lets you add one or more fees to the WooCommerce cart and checkout. Each fee is either a fixed amount or a percentage of the cart subtotal.
+Krompago lets you add one or more fees to the WooCommerce cart and checkout. Each fee is either a fixed amount or a percentage of the product subtotal including product tax.
 
 Fees are added through the WooCommerce fees API, so they appear in the cart totals, on the checkout page, and on the saved order, the same way shipping or tax does. The cart and checkout blocks and HPOS are both supported.
 
@@ -111,6 +111,9 @@ All data stays in your own database: your fee rows and the master switch are kep
 Krompago is fully translatable and ships the `krompago.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
+
+= 1.1.9 =
+* Fee settings: the percentage help now says the base is the product subtotal including product tax, which is what the fee has always used.
 
 = 1.1.8 =
 * Plugins list shows a shortcut to the settings screen.

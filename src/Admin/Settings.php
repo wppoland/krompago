@@ -253,7 +253,7 @@ final class Settings implements HasHooks
                         <option value="fixed" <?php selected($type, Fee::TYPE_FIXED); ?>><?php esc_html_e('Fixed amount', 'krompago'); ?></option>
                         <option value="percent" <?php selected($type, Fee::TYPE_PERCENT); ?>><?php esc_html_e('Percentage of cart', 'krompago'); ?></option>
                     </select>
-                    <span id="<?php echo esc_attr($uid . '-type-help'); ?>" class="surcharge-fee__help"><?php esc_html_e('Fixed adds the same amount every order. Percentage scales with the cart subtotal.', 'krompago'); ?></span>
+                    <span id="<?php echo esc_attr($uid . '-type-help'); ?>" class="surcharge-fee__help"><?php esc_html_e('Fixed adds the same amount every order. Percentage scales with the product subtotal including product tax.', 'krompago'); ?></span>
                 </p>
 
                 <p class="surcharge-fee__field">
@@ -261,7 +261,7 @@ final class Settings implements HasHooks
                     <input type="number" step="0.01" min="0" id="<?php echo esc_attr($uid . '-amount'); ?>" name="<?php echo esc_attr($base . '[amount]'); ?>" value="<?php echo esc_attr($amount); ?>" class="small-text surcharge-fee__amount" aria-describedby="<?php echo esc_attr($uid . '-amount-help'); ?>" />
                     <span id="<?php echo esc_attr($uid . '-amount-help'); ?>" class="surcharge-fee__help">
                         <span class="surcharge-fee__help-for-fixed"><?php esc_html_e('Charged in your store currency, e.g. 3.50.', 'krompago'); ?></span>
-                        <span class="surcharge-fee__help-for-percent"><?php esc_html_e('A percentage from 0 to 100, e.g. 2.5 adds 2.5% of the subtotal.', 'krompago'); ?></span>
+                        <span class="surcharge-fee__help-for-percent"><?php esc_html_e('A percentage from 0 to 100, e.g. 2.5 adds 2.5% of the product subtotal including product tax.', 'krompago'); ?></span>
                     </span>
                 </p>
 

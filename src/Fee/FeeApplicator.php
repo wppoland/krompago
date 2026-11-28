@@ -96,8 +96,8 @@ final class FeeApplicator implements HasHooks
     }
 
     /**
-     * The base used for percentage fees: cart contents subtotal (excluding
-     * existing fees and shipping).
+     * The base used for percentage fees: cart contents subtotal plus its tax,
+     * whatever the tax display setting (excluding existing fees and shipping).
      */
     private function cartBase(\WC_Cart $cart): float
     {
