@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Krompago - Checkout Fees for WooCommerce 1.1.5\n"
+"Project-Id-Version: Krompago - Checkout Fees for WooCommerce 1.1.9\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/krompago\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-29T13:43:51+00:00\n"
+"POT-Creation-Date: 2026-11-28T10:49:51+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: krompago\n"
@@ -89,141 +89,142 @@ msgstr ""
 msgid "What %s adds"
 msgstr ""
 
-#: src/Admin/Settings.php:70
-msgid "Krompago: checkout fees"
-msgstr ""
-
-#: src/Admin/Settings.php:71
+#: src/Admin/Settings.php:51
+#: src/Admin/Settings.php:83
 msgid "Surcharge"
 msgstr ""
 
-#: src/Admin/Settings.php:109
-msgid "Active"
-msgstr ""
-
-#: src/Admin/Settings.php:111
-msgid "Disabled"
-msgstr ""
-
-#: src/Admin/Settings.php:120
-msgid "Add checkout fees in two steps"
+#: src/Admin/Settings.php:82
+msgid "Krompago: checkout fees"
 msgstr ""
 
 #: src/Admin/Settings.php:121
+msgid "Active"
+msgstr ""
+
+#: src/Admin/Settings.php:123
+msgid "Disabled"
+msgstr ""
+
+#: src/Admin/Settings.php:132
+msgid "Add checkout fees in two steps"
+msgstr ""
+
+#: src/Admin/Settings.php:133
 msgid "1. Add a fee row below. 2. Choose a fixed amount or a percentage of the cart. Fees appear in the cart, at checkout and on the order."
 msgstr ""
 
-#: src/Admin/Settings.php:129
+#: src/Admin/Settings.php:141
 msgid "General"
 msgstr ""
 
-#: src/Admin/Settings.php:134
+#: src/Admin/Settings.php:146
 msgid "Enable fees"
 msgstr ""
 
-#: src/Admin/Settings.php:139
+#: src/Admin/Settings.php:151
 msgid "Apply the fees below at cart and checkout."
 msgstr ""
 
-#: src/Admin/Settings.php:141
+#: src/Admin/Settings.php:153
 msgid "Master switch. When off, no fees are added to any cart, regardless of the rows below."
 msgstr ""
 
-#: src/Admin/Settings.php:150
+#: src/Admin/Settings.php:162
 msgid "Fees"
 msgstr ""
 
-#: src/Admin/Settings.php:151
+#: src/Admin/Settings.php:163
 msgid "Each row is one fee. A fee with no label is skipped."
 msgstr ""
 
-#: src/Admin/Settings.php:155
-#: src/Admin/Settings.php:169
+#: src/Admin/Settings.php:167
+#: src/Admin/Settings.php:181
 msgid "Add fee"
 msgstr ""
 
-#: src/Admin/Settings.php:178
+#: src/Admin/Settings.php:190
 msgid "Ecosystem integrations"
 msgstr ""
 
-#: src/Admin/Settings.php:183
+#: src/Admin/Settings.php:195
 msgid "Dankon (Tips and Gratuity)"
 msgstr ""
 
-#: src/Admin/Settings.php:187
+#: src/Admin/Settings.php:199
 msgid "Dankon is active. Its tip and your fees are added as separate cart fees, and percentage fees are worked out on the cart subtotal, not on the tip."
 msgstr ""
 
 #. translators: %s: partner plugin name, linked to its search on the Add Plugins screen.
-#: src/Admin/Settings.php:194
+#: src/Admin/Settings.php:206
 #, php-format
 msgid "Install %s to let customers add a tip at checkout."
 msgstr ""
 
-#: src/Admin/Settings.php:229
+#: src/Admin/Settings.php:241
 msgid "Fee"
 msgstr ""
 
-#: src/Admin/Settings.php:233
+#: src/Admin/Settings.php:245
 msgid "Label"
 msgstr ""
 
-#: src/Admin/Settings.php:234
+#: src/Admin/Settings.php:246
 msgid "e.g. Handling fee"
 msgstr ""
 
-#: src/Admin/Settings.php:235
+#: src/Admin/Settings.php:247
 msgid "The wording customers see on the cart, checkout and order. Leave blank to skip this row."
 msgstr ""
 
-#: src/Admin/Settings.php:239
+#: src/Admin/Settings.php:251
 msgid "Type"
 msgstr ""
 
-#: src/Admin/Settings.php:241
+#: src/Admin/Settings.php:253
 msgid "Fixed amount"
 msgstr ""
 
-#: src/Admin/Settings.php:242
+#: src/Admin/Settings.php:254
 msgid "Percentage of cart"
 msgstr ""
 
-#: src/Admin/Settings.php:244
-msgid "Fixed adds the same amount every order. Percentage scales with the cart subtotal."
+#: src/Admin/Settings.php:256
+msgid "Fixed adds the same amount every order. Percentage scales with the product subtotal including product tax."
 msgstr ""
 
-#: src/Admin/Settings.php:248
+#: src/Admin/Settings.php:260
 msgid "Amount"
 msgstr ""
 
-#: src/Admin/Settings.php:251
+#: src/Admin/Settings.php:263
 msgid "Charged in your store currency, e.g. 3.50."
 msgstr ""
 
-#: src/Admin/Settings.php:252
-msgid "A percentage from 0 to 100, e.g. 2.5 adds 2.5% of the subtotal."
+#: src/Admin/Settings.php:264
+msgid "A percentage from 0 to 100, e.g. 2.5 adds 2.5% of the product subtotal including product tax."
 msgstr ""
 
-#: src/Admin/Settings.php:265
+#: src/Admin/Settings.php:277
 msgid "Receipt line"
 msgstr ""
 
-#: src/Admin/Settings.php:272
+#: src/Admin/Settings.php:284
 msgid "Taxable"
 msgstr ""
 
-#: src/Admin/Settings.php:274
+#: src/Admin/Settings.php:286
 msgid "On: tax is calculated on this fee using your standard rate. Off: the fee is added tax-free."
 msgstr ""
 
-#: src/Admin/Settings.php:281
+#: src/Admin/Settings.php:293
 msgid "Enabled"
 msgstr ""
 
-#: src/Admin/Settings.php:282
+#: src/Admin/Settings.php:294
 msgid "Off keeps the row saved but stops charging it."
 msgstr ""
 
-#: src/Admin/Settings.php:284
+#: src/Admin/Settings.php:296
 msgid "Remove fee"
 msgstr ""
